@@ -225,6 +225,19 @@ void loop() {
 // END.
 ```
 
+So the program's 'working'.  People say that a lot: it's working. ;)
+
+Better: It compiles.  It mostly does what was expected.  Does at least something useful.  Doesn't quite do what was in mind when it was first *edited as code*.
+
+#### psuedocode
+
+##### What's pseudocode?
+
+*Pseudocode is code you write without obeying real syntax rules; it's there for you, and is meant to remind you of something pretty close to what you wanted to 'program into the microcontoller' at some point (hopefully later today!)*
+
+That's pretty much it: fake code that is meant to *model* what you think should be *going on* in your *program* when it's either *finished* or at least *completed, up to a certain point* in its *development*.
+
+
 # DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 15:58:07 UTC 2022 - timestamp only occasionally maintained ;)
 
