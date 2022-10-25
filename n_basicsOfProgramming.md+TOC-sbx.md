@@ -1,6 +1,8 @@
 # Basics of Programming | [HOME](README.md) |
 # What is Programming?
 
+[Table of Contents](#table-of-contents)
+
 *Programming* is a means to tell a computer (or, in the case of
 the Arduino, a *microcontroller*) what to do, when to do it and how
 to do it, and if to keep on doing it 'forever' or for an amount of
@@ -428,7 +430,7 @@ its *development*.
 # DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 17:32:33 UTC 2022 - timestamp only occasionally maintained ;)
 
-Table of Contents
+# Table of Contents
 =================
 
 * [Basics of Programming | <a href="README.md">HOME</a> |](#basics-of-programming--home-)
