@@ -18,9 +18,9 @@ for just the microcontroller 'chip' itself.*
 specialty is dealing with the real world, through 'mechatronics'
 (electro-mechanical devices and other machinery that can accept
 instructions via wires &hellip; or, in the modern day, via
-wireless links.*
+wireless links).*
 
 # SANDBOXed DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 13:28:25 UTC 2022 - timestamp only occasionally maintained ;)
+#### Tue 25 Oct 14:06:49 UTC 2022 - timestamp only occasionally maintained ;)
 
 #### END.
