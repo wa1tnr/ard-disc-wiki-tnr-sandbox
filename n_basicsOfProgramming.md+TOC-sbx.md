@@ -73,7 +73,7 @@ Nothing else!
 ![Altair 8800 from the Computer History Museum - Wikipedia](
 https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg/1024px-Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg)
 
-*Assembler* *(assembly language)* would require you to use some
+*Assembler (assembly language)* would require you to use some
 kind of a typewriter&mdash;or other keyboard-like device&mdash;so
 that you could use some kind of *language*&mdash;made-up, or
 borrowed from someone else&mdash;to 'talk' to the microcontroller,
@@ -107,6 +107,8 @@ void loop() {
 }
 ```
 
+### Quick wokwi demo
+
 [*Now Playing*](https://wokwi.com/projects/346503862192964178)
 &nbsp;&nbsp;*on*&nbsp;&nbsp;
 [*wokwi.com*](https://wokwi.com/)
@@ -136,7 +138,7 @@ were not (yet) typed into the computer (using some kind of
 
 
 > *If you leave a placeholder in, 'permanently', you have just
-> created a **hook**.  Do not put in hooks.  Ever.  Create them
+> created a* **hook**.  *Do not put in hooks.  Ever.  Create them
 > as required.*
 
 > *If you must, revision control has tools to help you remember
@@ -430,7 +432,7 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 17:32:33 UTC 2022 - timestamp only occasionally maintained ;)
+#### Tue 25 Oct 21:24:18 UTC 2022 - timestamp only occasionally maintained ;)
 
 # Table of Contents
 =================
