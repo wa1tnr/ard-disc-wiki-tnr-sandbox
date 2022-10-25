@@ -455,8 +455,7 @@ its *development*.
 * [What, then, is Programming?](#what-then-is-programming)
   * **Introduction for Beginners: What is a Computer Language?**
   * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
-
-* [Quick wokwi demo](#quick-wokwi-demo)
+  * [Quick wokwi demo](#quick-wokwi-demo)
 * [Tools, not Rules](#tools-not-rules)
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
