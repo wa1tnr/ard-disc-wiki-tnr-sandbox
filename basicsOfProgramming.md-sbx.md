@@ -14,11 +14,14 @@ chip factory.  It's a task well-suited to industrial microcontrollers,
 which are smallish devices that often fit in the palm of your hand,
 for just the microcontroller 'chip' itself.*
 
+&#123;details>
+  &#123;summary>More (*microcontroller, defined*)</summary>
 *A microcontroller is just another type of computer chip, but its
 specialty is dealing with the real world, through 'mechatronics'
 (electro-mechanical devices and other machinery that can accept
 instructions via wires &hellip; or, in the modern day, via
 wireless links.*
+&#123;/details>
 
 # SANDBOXed DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 13:28:25 UTC 2022 - timestamp only occasionally maintained ;)
