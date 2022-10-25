@@ -22,17 +22,13 @@ wireless links).*
 
 
 # What, then, is Programming?
+#### Introduction for Beginners: What is a Computer Language?
 
 From Leo Brodie:
 
 [Starting Forth: Introductions](https://www.forth.com/starting-forth/0-starting-forth/)
 
-### Introductions
-
-#### Introduction for Beginners: What is a Computer Language?
-
 > At first when beginners hear the term “computer language,” they wonder, “What kind of language could a computer possibly speak? It must be awfully hard for people to understand. It probably looks like:
-What is a 'computer language'?
 
 > > `976#!@NX714&+`
 
@@ -41,6 +37,6 @@ What is a 'computer language'?
 > Actually a computer language should not be difficult to understand. Its purpose is simply to serve as a convenient compromise for communication between a person and a computer.
 
 # SANDBOXed DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 14:06:49 UTC 2022 - timestamp only occasionally maintained ;)
+#### Tue 25 Oct 14:15:21 UTC 2022 - timestamp only occasionally maintained ;)
 
 #### END.
