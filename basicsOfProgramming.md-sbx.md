@@ -447,8 +447,8 @@ its *development*.
 =================
 
 * [Basics of Programming | <a href="README.md">HOME</a> |](#basics-of-programming--home-)
-* [What is Programming?](#what-is-programming)
-* [Scenario: potato-chip counting machine](#scenario-potato-chip-counting-machine)
+* [What is Programming?](#basics-of-programming--home-)
+* [Scenario: potato-chip counting machine](#basics-of-programming--home-)
 * [What, then, is Programming?](#what-then-is-programming)
 * [Introduction for Beginners: What is a Computer Language?](#introduction-for-beginners-what-is-a-computer-language)
 * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
