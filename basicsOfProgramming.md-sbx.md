@@ -259,7 +259,11 @@ void loop() {
 // END.
 ```
 
+*Show a method for commenting-out code that does not spoil syntax highlighting inside the commented code.*
 
+Note that `Serial.priantln("message"):` is deliberately misspelled, but still 'compiles clean'.
+
+*That was a test of the `#if 0` &hellip; `#endif` construct.* &nbsp;&nbsp;;)
 
 
 
