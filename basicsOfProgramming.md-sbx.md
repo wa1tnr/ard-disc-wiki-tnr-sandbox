@@ -160,7 +160,7 @@ void loop() {
 ```cpp
 #include <Arduino.h>
 
-haha() { }
+void haha() { }
 
 void setup() {
     Serial.begin(9600);
@@ -179,7 +179,7 @@ void loop() {
 ```cpp
 #include <Arduino.h>
 
-haha() {
+void haha() {
     Serial.println(" TEST abciq "); // weird message to recognize as ours
 }
 
@@ -200,6 +200,6 @@ void loop() {
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 15:22:46 UTC 2022 - timestamp only occasionally maintained ;)
+#### Tue 25 Oct 15:58:07 UTC 2022 - timestamp only occasionally maintained ;)
 
 #### END.
