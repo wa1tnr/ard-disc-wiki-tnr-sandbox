@@ -14,40 +14,11 @@ chip factory.  It's a task well-suited to industrial microcontrollers,
 which are smallish devices that often fit in the palm of your hand,
 for just the microcontroller 'chip' itself.*
 
-
-<!-- thanks to
-
-  https://gist.github.com/joyrexus/16041f2426450e73f5df9391f7f7ae5f
-
--->
-
-## collapsible markdown?
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
-
-
-intervening text here.
-
-
-<details><summary>More (*microcontroller, defined*)</summary>
-<p>
-    *A microcontroller is just another type of computer chip, but its
-    specialty is dealing with the real world, through 'mechatronics'
-    (electro-mechanical devices and other machinery that can accept
-    instructions via wires &hellip; or, in the modern day, via
-    wireless links.*
-</p>
-</details>
+*A microcontroller is just another type of computer chip, but its
+specialty is dealing with the real world, through 'mechatronics'
+(electro-mechanical devices and other machinery that can accept
+instructions via wires &hellip; or, in the modern day, via
+wireless links.*
 
 # SANDBOXed DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 13:28:25 UTC 2022 - timestamp only occasionally maintained ;)
