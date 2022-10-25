@@ -368,9 +368,6 @@ void loop() {
 
 
 
-###### pushed down:
-
-
 #### psuedocode
 
 ##### What's pseudocode?
@@ -381,6 +378,6 @@ That's pretty much it: fake code that is meant to *model* what you think should 
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 15:58:07 UTC 2022 - timestamp only occasionally maintained ;)
+#### Tue 25 Oct 16:45:33 UTC 2022 - timestamp only occasionally maintained ;)
 
 #### END.
