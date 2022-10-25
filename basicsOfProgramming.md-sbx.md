@@ -52,7 +52,9 @@ The *microcode* is just those 1's and 0's and doesn't need further support to fu
 
 ![Altair 8800 from the Computer History Museum - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg/1024px-Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg)
 
-*Assembler* *(assembly language)* would require you to use some kind of a typewriter or other keyboard like device to use some kind of language, made-up or borrowed from someone else who put in the time to make it sensible to you.
+*Assembler* *(assembly language)* would require you to use some kind of a typewriter or other keyboard-like device, so that you could use some kind of *language*&mdash;made-up, or borrowed from someone else&mdash;to 'talk' to the microcontroller, and give it *instructions* on *what to do*.
+
+And when to do it.  How to do it!  When not to do it.  And, maybe, special instructions on what should be done if your *assumptions were incorrect*. ;)
 
 
 # SANDBOXed DRAFT ONLY - INCOMPLETE
