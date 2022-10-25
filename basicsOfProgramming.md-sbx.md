@@ -306,6 +306,36 @@ void loop() {
 }
 ```
 
+This is really what's left to be done; *taken from the working program; scroll up to see it.*
+
+
+```cpp
+
+#include <Arduino.h>
+
+void haha() {
+    Serial.println("When I die,");
+    Serial.println("Bury me deep;");
+    Serial.println("Put two speakers at my feet.");
+    Serial.println("Put some headphones on my head,");
+    Serial.println(".. and always play the Grateful Dead.");
+}
+
+void setup() {
+    Serial.begin(9600);
+    haha();
+}
+
+void loop() {
+    Serial.println("   Always play the Grateful Dead.");
+    delay(2200);
+}
+
+// END.
+```
+
+*Now the loop is 'playing'.  It's got stuph inside of it.  And it does it, whatever is in there, repeatedly.*
+
 
 
 
