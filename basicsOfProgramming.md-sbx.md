@@ -406,7 +406,7 @@ void loop() {
 the `haha()` message plays, marking distinctly where the
 `setup()` and and where the `loop()` begins, without
 crudding it up with a `Mr. Obvious` announcement such as
-`You are entering the loop!`
+`You are entering the loop!`*
 
 
 
