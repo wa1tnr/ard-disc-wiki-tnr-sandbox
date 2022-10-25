@@ -435,19 +435,15 @@ its *development*.
 
 * [Basics of Programming | <a href="README.md">HOME</a> |](#basics-of-programming--home-)
 * [What is Programming?](#what-is-programming)
-         * [Scenario: potato-chip counting machine](#scenario-potato-chip-counting-machine)
+  * [Scenario: potato-chip counting machine](#scenario-potato-chip-counting-machine)
 * [What, then, is Programming?](#what-then-is-programming)
-         * [Introduction for Beginners: What is a Computer Language?](#introduction-for-beginners-what-is-a-computer-language)
-         * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
+  * [Introduction for Beginners: What is a Computer Language?](#introduction-for-beginners-what-is-a-computer-language)
+  * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
 * [Massive skipping of details…](#massive-skipping-of-details)
    * [Tools, not Rules](#tools-not-rules)
-      * [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
-      * [Then test it.](#then-test-it)
-   * [Psuedocode](#psuedocode)
-         * [What's pseudocode?](#whats-pseudocode)
-* [DRAFT ONLY - INCOMPLETE](#draft-only---incomplete)
-         * [Tue 25 Oct 17:32:33 UTC 2022 - timestamp only occasionally maintained ;)](#tue-25-oct-173233-utc-2022---timestamp-only-occasionally-maintained-)
-         * [END.](#end)
+    * [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
+    * [Psuedocode](#psuedocode)
+    * [What's pseudocode?](#whats-pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
