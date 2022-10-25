@@ -266,7 +266,30 @@ Note that `Serial.priantln("message"):` is deliberately misspelled, but still 'c
 *That was a test of the `#if 0` &hellip; `#endif` construct.* &nbsp;&nbsp;;)
 
 
+```cpp
 
+#include <Arduino.h>
+
+void haha() {
+    Serial.println("When I die,");
+    Serial.println("Bury me deep;");
+    Serial.println("Put two speakers at my feet.");
+    Serial.println("Put some headphones on my head,");
+    Serial.println(".. and always play the Grateful Dead.");
+}
+
+void setup() {
+    Serial.begin(9600);
+    haha();
+}
+
+void loop() {
+}
+
+// END.
+```
+
+*Code clean-up - the commented code is no longer operative and is removed.  Don't worry, with revision control, it is easily recalled, as required.*
 
 
 ###### pushed down:
