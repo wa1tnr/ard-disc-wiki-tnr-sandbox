@@ -9,7 +9,7 @@
 
 *A microcontroller is just another type of computer chip, but its specialty is dealing with the real world, through 'mechatronics' (electro-mechanical devices and other machinery that can accept instructions via wires &hellip; or, in the modern day, via wireless links.*
 
-# DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 12:51:37 UTC 2022
+# SANDBOXed DRAFT ONLY - INCOMPLETE
+#### Tue 25 Oct 13:08:09 UTC 2022
 
 #### END.
