@@ -24,6 +24,9 @@ wireless links).*
 
 
 # What, then, is Programming?
+
+[Table of Contents](#table-of-contents)
+
 #### Introduction for Beginners: What is a Computer Language?
 
 From Leo Brodie:
@@ -450,7 +453,7 @@ its *development*.
 * [What is Programming?](#basics-of-programming--home-)
 * [Scenario: potato-chip counting machine](#basics-of-programming--home-)
 * [What, then, is Programming?](#what-then-is-programming)
-* [Introduction for Beginners: What is a Computer Language?](#introduction-for-beginners-what-is-a-computer-language)
+* [Introduction for Beginners: What is a Computer Language?](#what-then-is-programming)
 * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
 
 * [Quick wokwi demo](#quick-wokwi-demo)
@@ -458,7 +461,7 @@ its *development*.
 * [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
 * [Test it!](#then-test-it)
 * [Psuedocode](#psuedocode)
-* [What's pseudocode?](#whats-pseudocode)
+* [What's pseudocode?](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
