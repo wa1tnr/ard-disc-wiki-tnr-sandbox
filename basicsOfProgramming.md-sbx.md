@@ -132,13 +132,15 @@ were not (yet) typed into the computer (using some kind of
 
 
 > *IF you leave a placeholder in, 'permanently', you have just
-> created a **hook**.
-> Do not put in hooks.  Ever.  Create them as required.
+> created a **hook**.  Do not put in hooks.  Ever.  Create them
+> as required.
+
 > If you must, revision control has tools to help you remember
 > how to add the hook, when it is truly wanted.*
 
-**The above is opinion, and isn't to be followed;
-unless you agree to it by your own philosophy.** &nbsp;&nbsp;&nbsp;;)
+**The above is opinion, and isn't to be followed; unless you agree
+to it by your own philosophy.** &nbsp;&nbsp;&nbsp;;)
+
 
 `/netreligion`
 
@@ -163,7 +165,8 @@ void loop() {
 // END.
 ```
 
-*Slightly more formal - same exact program; just added some spacing to make it a bit easier to take in, while reading it over.*
+*Slightly more formal - same exact program; just added some spacing
+to make it a bit easier to take in, while reading it over.*
 
 
 ```cpp
@@ -197,7 +200,9 @@ void loop() {
 // END.
 ```
 
-*Add a placeholder function called `haha()` that will (later on) contain something interesting to do after starting the Serial going (which lets you print stuph out).*
+*Add a placeholder function called `haha()` that will (later on)
+contain something interesting to do, after starting the Serial going
+(which lets you print stuph out).*
 
 
 ```cpp
@@ -234,8 +239,8 @@ void haha() {
     Serial.println(".. and always play the Grateful Dead.");
 }
 
-void haha_old_delete_me() { // cruft - can stay for now.
-    Serial.println(" TEST abciq "); // weird message to recognize as ours
+void haha_old_delete_me() { // cruft
+    Serial.println(" TEST abciq "); // weird message
 }
 
 void setup() {
@@ -249,9 +254,12 @@ void loop() {
 // END.
 ```
 
-So the program's 'working'.  People say that a lot:&nbsp;&nbsp;&nbsp;*"It's working."* &nbsp;&nbsp;;)
+So the program's 'working'.  People say that a
+lot:&nbsp;&nbsp;&nbsp;*"It's working."* &nbsp;&nbsp;;)
 
-Better: It compiles.  It mostly does what was expected.  Does at least something useful.  Doesn't quite do what was in mind when it was first *edited as code*.
+Better: It compiles.  It mostly does what was expected.  Does at
+least something useful.  Doesn't quite do what was in mind when
+it was first *edited as code*.
 
 
 ```cpp
@@ -267,8 +275,8 @@ void haha() {
 }
 
 #if 0
-void haha_old_delete_me() { // cruft - can stay for now.
-    Serial.priantln(" TEST abciq "); // weird message to recognize as ours
+void haha_old_delete_me() { // cruft
+    Serial.priantln(" TEST abciq "); // weird message
 }
 #endif
 
@@ -283,11 +291,14 @@ void loop() {
 // END.
 ```
 
-*Show a method for commenting-out code that does not spoil syntax highlighting inside the commented code.*
+*Show a method for commenting-out code that does not spoil syntax
+highlighting inside the commented code.*
 
-Note that `Serial.priantln("message"):` is deliberately misspelled, but still 'compiles clean'.
+Note that `Serial.priantln("message"):` is deliberately misspelled,
+but still 'compiles clean'.
 
-*That was a test of the `#if 0` &hellip; `#endif` construct.* &nbsp;&nbsp;;)
+*That was a test of the `#if 0` &hellip; `#endif`
+construct.* &nbsp;&nbsp;;)
 
 
 ```cpp
@@ -313,7 +324,9 @@ void loop() {
 // END.
 ```
 
-*Code clean-up - the commented code is no longer operative and is removed.  Don't worry, with revision control, it is easily recalled, as required.*
+*Code clean-up - the commented code is no longer operative
+and is removed.  Don't worry, with revision control, it is
+easily recalled, as required.*
 
 ```cpp
 // - - -  CODE SNIPPET - - - DOES NOT COMPILE - - -
@@ -330,7 +343,8 @@ void loop() {
 }
 ```
 
-This is really what's left to be done; *taken from the working program; scroll up to see it.*
+This is really what's left to be done; *taken from the working
+program; scroll up to see it.*
 
 
 ```cpp
@@ -358,7 +372,8 @@ void loop() {
 // END.
 ```
 
-*Now the loop is 'playing'.  It's got stuph inside of it.  And it does it, whatever is in there, repeatedly.*
+*Now the loop is 'playing'.  It's got stuph inside of it.
+And it does it, whatever is in there, repeatedly.*
 
 
 ```cpp
@@ -387,21 +402,30 @@ void loop() {
 // END.
 ```
 
-* A slight refinement: there's a decently long delay after the `haha()` message plays, marking distinctly where the `setup()` and and where the `loop()` begins, without crudding it up with a `Mr. Obvious` announcement such as `You are entering the loop!`
+*A slight refinement: there's a decently long delay after
+the `haha()` message plays, marking distinctly where the
+`setup()` and and where the `loop()` begins, without
+crudding it up with a `Mr. Obvious` announcement such as
+`You are entering the loop!`
 
 
 
+## Psuedocode
 
-#### psuedocode
+#### What's pseudocode?
 
-##### What's pseudocode?
+*Pseudocode is code you write without obeying real syntax rules;
+it's there for you, and is meant to remind you of something pretty
+close to what you wanted to 'program into the microcontoller' at
+some point (hopefully later today!)*
 
-*Pseudocode is code you write without obeying real syntax rules; it's there for you, and is meant to remind you of something pretty close to what you wanted to 'program into the microcontoller' at some point (hopefully later today!)*
-
-That's pretty much it: fake code that is meant to *model* what you think should be *going on* in your *program* when it's either *finished* or at least *completed, up to a certain point* in its *development*.
+That's pretty much it: fake code that is meant to *model* what you
+think should be *going on* in your *program* when it's either
+*finished* or at least *completed, up to a certain point* in
+its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 16:52:46 UTC 2022 - timestamp only occasionally maintained ;)
+#### Tue 25 Oct 17:11:23 UTC 2022 - timestamp only occasionally maintained ;)
 
 #### END.
