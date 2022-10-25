@@ -79,7 +79,7 @@ special instructions on what should be done if your
 
 
 ```cpp
-#include <Arduino.h> // optional
+// #include <Arduino.h> // optional
 
 void haha() {
     Serial.println("When I die,");
@@ -99,12 +99,12 @@ void loop() {
     Serial.println("   Always play the Grateful Dead.");
     delay(2200);
 }
-
-[Now Playing] *on wowi.com*:(https://wokwi.com/projects/346503862192964178)
-
-*See it in action, now!*
-
 ```
+
+[*Now Playing*](https://wokwi.com/projects/346503862192964178)
+&nbsp;&nbsp;*on*&nbsp;&nbsp;
+[*wokwi.com*](https://wokwi.com/)  &nbsp;&nbsp;&nbsp;&nbsp;*See it in action, now!*
+
 
 # DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 15:07:08 UTC 2022 - timestamp only occasionally maintained ;)
