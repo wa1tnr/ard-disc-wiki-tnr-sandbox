@@ -38,7 +38,20 @@ From Leo Brodie:
 
  - - -
 
-So, looking at it from Leo's point of view, *programming* is a way to talk to a computer.  Even the word, 'talk' is misused here&mdash;*they had to start somewhere*&mdash;there are many *borrow-words* used in *programming* from the learner's native (spoken and written, human, pre-computer) language.
+So, looking at it from Leo's point of view, *programming* is a way to talk to a computer.  Even the word, 'talk' is misused here&mdash;*they had to start somewhere*.  There are many *borrow-words* used in *programming*, taken from the learner's native (spoken and written; human; pre-computer) language.
+
+#### Nuts and Bolts of Programs
+
+The computer chip itself accepts a long series of `1's and 0's` (ones and zeros) as its only means of communication (excepting analog, but that's another talk show).
+
+The *microcode* is just those 1's and 0's and doesn't need further support to function.
+
+*assembly language* is simply using those very same 1's and 0's, but with a cheater lookup table, so that you could use made-up words to represent frequently used patterns of 1's and 0's in your new 'program'.
+
+*microcode* can be programmed using just front panel switches.  Nothing else!
+
+*assembler* would require you to use some kind of a typewriter or other keyboard like device to use some kind of language, made-up or borrowed from someone else who put in the time to make it sensible to you.
+
 
 # SANDBOXed DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 14:15:21 UTC 2022 - timestamp only occasionally maintained ;)
