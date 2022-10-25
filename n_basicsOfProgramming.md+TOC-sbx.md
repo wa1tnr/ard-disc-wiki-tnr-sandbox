@@ -53,6 +53,8 @@ human; pre-computer) language.
 
 #### Nuts and Bolts of Programs
 
+[Table of Contents](#table-of-contents)
+
 The microcontroller (`MCU`) chip itself accepts a long series of
 `1's and 0's` (ones and zeros) as its only means of communication
 (excepting analog, but that's another talk show).
