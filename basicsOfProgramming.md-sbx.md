@@ -24,9 +24,11 @@ wireless links).*
 # What, then, is Programming?
 #### Introduction for Beginners: What is a Computer Language?
 
-From Leo Brodie:
+From Leo Brodie:   # EXPERIMENT
+*does the line break damage the hyperlink or not*
 
-[Starting Forth: Introductions](https://www.forth.com/starting-forth/0-starting-forth/)
+[Starting Forth: Introductions]
+(https://www.forth.com/starting-forth/0-starting-forth/)
 
 > At first when beginners hear the term “computer language,” they
 wonder, “What kind of language could a computer possibly speak? It
@@ -65,7 +67,8 @@ new 'program'.
 *Microcode* can be programmed using just front panel switches.
 Nothing else!
 
-![Altair 8800 from the Computer History Museum - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg/1024px-Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg)
+![Altair 8800 from the Computer History Museum - Wikipedia]
+(https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg/1024px-Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg)
 
 *Assembler* *(assembly language)* would require you to use some kind
 of a typewriter&mdash;or other keyboard-like device&mdash;so that you
