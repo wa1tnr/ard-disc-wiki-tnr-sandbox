@@ -291,6 +291,24 @@ void loop() {
 
 *Code clean-up - the commented code is no longer operative and is removed.  Don't worry, with revision control, it is easily recalled, as required.*
 
+```cpp
+// - - -  CODE SNIPPET - - - DOES NOT COMPILE - - -
+
+void setup() {
+    Serial.begin(9600);
+    haha();
+    delay(2200);
+}
+
+void loop() {
+    Serial.println("   Always play the Grateful Dead.");
+    delay(2200);
+}
+```
+
+
+
+
 
 ###### pushed down:
 
