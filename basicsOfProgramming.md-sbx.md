@@ -450,18 +450,17 @@ its *development*.
 =================
 
 * [Basics of Programming | <a href="README.md">HOME</a> |](#basics-of-programming--home-)
-* **What is Programming?**
-* **Scenario: potato-chip counting machine**
+  * **What is Programming?**
+  * **Scenario: potato-chip counting machine**
 * [What, then, is Programming?](#what-then-is-programming)
-* **Introduction for Beginners: What is a Computer Language?**
-* [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
+  * **Introduction for Beginners: What is a Computer Language?**
+  * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
 
 * [Quick wokwi demo](#quick-wokwi-demo)
 * [Tools, not Rules](#tools-not-rules)
-* **Top down, bottom up, middle out**
-* [Test it!](#then-test-it)
+  * **Top down, bottom up, middle out**
+  * [Test it!](#then-test-it)
 * [Pseudocode](#pseudocode)
-* **What's pseudocode?**
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
