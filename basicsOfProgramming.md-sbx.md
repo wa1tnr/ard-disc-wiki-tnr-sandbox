@@ -1,7 +1,11 @@
 # Basics of Programming | [HOME](README.md) |
 # What is Programming?
 
-*Programming* is a means to tell a computer (or, in the case of the Arduino, a *microcontroller*) what to do, when to do it and how to do it, and if to keep on doing it 'forever' or for an amount of time, or (yup, there's more options) &hellip; until some resource it needs (to keep running) has been completely used up.
+*Programming* is a means to tell a computer (or, in the case of
+the Arduino, a *microcontroller*) what to do, when to do it and how
+to do it, and if to keep on doing it 'forever' or for an amount of
+time, or (yup, there's more options) &hellip; until some resource
+it needs (to keep running) has been completely used up.
 
 #### Scenario: potato-chip counting machine
 
@@ -10,6 +14,6 @@
 *A microcontroller is just another type of computer chip, but its specialty is dealing with the real world, through 'mechatronics' (electro-mechanical devices and other machinery that can accept instructions via wires &hellip; or, in the modern day, via wireless links.*
 
 # SANDBOXed DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 13:08:09 UTC 2022
+#### Tue 25 Oct 13:25:57 UTC 2022
 
 #### END.
