@@ -107,7 +107,10 @@ void loop() {
 }
 ```
 
-### Quick wokwi demo
+
+#### Quick wokwi demo
+
+[Table of Contents](#table-of-contents)
 
 [*Now Playing*](https://wokwi.com/projects/346503862192964178)
 &nbsp;&nbsp;*on*&nbsp;&nbsp;
@@ -444,6 +447,7 @@ its *development*.
 * [Introduction for Beginners: What is a Computer Language?](#introduction-for-beginners-what-is-a-computer-language)
 * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
 
+* [Quick wokwi demo](#quick-wokwi-demo)
 * [Tools, not Rules](#tools-not-rules)
 * [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
 * [Psuedocode](#psuedocode)
