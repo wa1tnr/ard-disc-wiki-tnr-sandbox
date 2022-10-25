@@ -460,7 +460,7 @@ its *development*.
 * [Tools, not Rules](#tools-not-rules)
 * [Top down, bottom up, middle out](#tools-not-rules)
 * [Test it!](#then-test-it)
-* [Psuedocode](#psuedocode)
+* [Pseudocode](#pseudocode)
 * [What's pseudocode?](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
