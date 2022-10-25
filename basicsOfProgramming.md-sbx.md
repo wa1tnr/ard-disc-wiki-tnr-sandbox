@@ -229,6 +229,45 @@ So the program's 'working'.  People say that a lot:&nbsp;&nbsp;&nbsp;*"It's work
 
 Better: It compiles.  It mostly does what was expected.  Does at least something useful.  Doesn't quite do what was in mind when it was first *edited as code*.
 
+
+```cpp
+
+#include <Arduino.h>
+
+void haha() {
+    Serial.println("When I die,");
+    Serial.println("Bury me deep;");
+    Serial.println("Put two speakers at my feet.");
+    Serial.println("Put some headphones on my head,");
+    Serial.println(".. and always play the Grateful Dead.");
+}
+
+#ifdef 0
+void haha_old_delete_me() { // cruft - can stay for now.
+    Serial.println(" TEST abciq "); // weird message to recognize as ours
+}
+#endif
+
+void setup() {
+    Serial.begin(9600);
+    haha();
+}
+
+void loop() {
+}
+
+// END.
+```
+
+
+
+
+
+
+
+###### pushed down:
+
+
 #### psuedocode
 
 ##### What's pseudocode?
