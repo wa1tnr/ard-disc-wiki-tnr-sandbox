@@ -122,6 +122,8 @@ void loop() {
 
 ## Tools, not Rules
 
+[Table of Contents](#table-of-contents)
+
 ### Top down, bottom up, middle out
 
 So, the above program already *works*.  Here's a way to look at how
@@ -235,6 +237,8 @@ void loop() {
 *Make `haha()` do something slightly interesting.*
 
 ### Then test it.
+
+[Table of Contents](#table-of-contents)
 
 ```cpp
 
@@ -421,6 +425,8 @@ crudding it up with a `Mr. Obvious` announcement such as
 
 ## Psuedocode
 
+[Table of Contents](#table-of-contents)
+
 #### What's pseudocode?
 
 *Pseudocode is code you write without obeying real syntax rules;
@@ -448,6 +454,7 @@ its *development*.
 * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
 
 * [Quick wokwi demo](#quick-wokwi-demo)
+* [Test it!](#then-test-it)
 * [Tools, not Rules](#tools-not-rules)
 * [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
 * [Psuedocode](#psuedocode)
