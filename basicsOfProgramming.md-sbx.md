@@ -458,7 +458,7 @@ its *development*.
 
 * [Quick wokwi demo](#quick-wokwi-demo)
 * [Tools, not Rules](#tools-not-rules)
-* [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
+* [Top down, bottom up, middle out](#tools-not-rules)
 * [Test it!](#then-test-it)
 * [Psuedocode](#psuedocode)
 * [What's pseudocode?](#pseudocode)
