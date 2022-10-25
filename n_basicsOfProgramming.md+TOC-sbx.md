@@ -439,7 +439,7 @@ its *development*.
 * [What, then, is Programming?](#what-then-is-programming)
 * [Introduction for Beginners: What is a Computer Language?](#introduction-for-beginners-what-is-a-computer-language)
 * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
-* [Massive skipping of details…](#massive-skipping-of-details)
+
 * [Tools, not Rules](#tools-not-rules)
 * [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
 * [Psuedocode](#psuedocode)
