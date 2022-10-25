@@ -36,6 +36,10 @@ From Leo Brodie:
 
 > Actually a computer language should not be difficult to understand. Its purpose is simply to serve as a convenient compromise for communication between a person and a computer.
 
+ - - -
+
+So, looking at it from Leo's point of view, *programming* is a way to talk to a computer.  Even the word, 'talk' is misused here&mdash;*they had to start somewhere*&mdash;there are many *borrow-words* used in *programming* from the learner's native (spoken and written, human, pre-computer) language.
+
 # SANDBOXed DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 14:15:21 UTC 2022 - timestamp only occasionally maintained ;)
 
