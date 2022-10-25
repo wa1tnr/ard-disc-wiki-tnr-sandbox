@@ -112,6 +112,13 @@ void loop() {
 
 ### Top down, bottom up, middle out
 
+So, the above program already works.  Here's a way to look at how it got made (see just below).
+
+```cpp
+#include <Arduino.h>
+void setup() { } void loop() {} // END.
+```
+
 # DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 15:22:46 UTC 2022 - timestamp only occasionally maintained ;)
 
