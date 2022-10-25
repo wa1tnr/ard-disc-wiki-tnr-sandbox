@@ -426,7 +426,7 @@ crudding it up with a `Mr. Obvious` announcement such as
 
 
 
-## Psuedocode
+## Pseudocode
 
 [Table of Contents](#table-of-contents)
 
