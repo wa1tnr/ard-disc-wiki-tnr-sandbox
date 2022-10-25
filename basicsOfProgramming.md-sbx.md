@@ -242,9 +242,9 @@ void haha() {
     Serial.println(".. and always play the Grateful Dead.");
 }
 
-#ifdef 0
+#if 0
 void haha_old_delete_me() { // cruft - can stay for now.
-    Serial.println(" TEST abciq "); // weird message to recognize as ours
+    Serial.priantln(" TEST abciq "); // weird message to recognize as ours
 }
 #endif
 
