@@ -106,7 +106,13 @@ void loop() {
 [*wokwi.com*](https://wokwi.com/)  &nbsp;&nbsp;&nbsp;&nbsp;*See it in action, now!*
 
 
+# Massive skipping of details&hellip;
+
+## Tools, not Rules
+
+### Top down, bottom up, middle out
+
 # DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 15:07:08 UTC 2022 - timestamp only occasionally maintained ;)
+#### Tue 25 Oct 15:22:46 UTC 2022 - timestamp only occasionally maintained ;)
 
 #### END.
