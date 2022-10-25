@@ -119,6 +119,86 @@ So, the above program already works.  Here's a way to look at how it got made (s
 void setup() { } void loop() {} // END.
 ```
 
+This program compiles and 'runs' just fine, on wowki.  Doesn't do much; isn't meant to.
+
+In a sense, it has several placeholders for future ideas that were not (yet) typed into the computer (using some kind of *code editor* or just a *plaintext* editor).
+
+`Top-down, bottom-up, middle-out` is an approach to programming; it surely has an accepted definition and description, but will be used here, only informally, to describe what the theory books will talk about in detail, using proper names for everything. ;)
+
+It's a tool.  You can use it, or fall back on your other skills and completely ignore it.  *Everyone develops a style of their own*.
+
+```cpp
+#include <Arduino.h>
+
+void setup() {
+}
+
+void loop() {
+}
+
+// END.
+```
+
+*Slightly more formal - same exact program; just added some spacing to make it a bit easier to take in, while reading it over.*
+
+
+```cpp
+#include <Arduino.h>
+
+void setup() {
+    Serial.begin(9600);
+}
+
+void loop() {
+}
+
+// END.
+```
+
+*Initialize the Serial stuph.*
+
+```cpp
+#include <Arduino.h>
+
+haha() { }
+
+void setup() {
+    Serial.begin(9600);
+    haha();
+}
+
+void loop() {
+}
+
+// END.
+```
+
+*Add a placeholder function called `haha()` that will (later on) contain something interesting to do after starting the Serial going (which lets you print stuph out).*
+
+
+```cpp
+#include <Arduino.h>
+
+haha() {
+    Serial.println(" TEST abciq "); // weird message to recognize as ours
+}
+
+void setup() {
+    Serial.begin(9600);
+    haha();
+}
+
+void loop() {
+}
+
+// END.
+```
+
+*Make `haha()` do something slightly interesting.*
+
+### Then test it.
+
+
 # DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 15:22:46 UTC 2022 - timestamp only occasionally maintained ;)
 
