@@ -132,10 +132,10 @@ were not (yet) typed into the computer (using some kind of
 
 
 > *IF you leave a placeholder in, 'permanently', you have just
-> created a `hook`.
+> created a **hook**.
 > Do not put in hooks.  Ever.  Create them as required.
 > If you must, revision control has tools to help you remember
-> how to add the hook, when it is gtruly wanted.
+> how to add the hook, when it is truly wanted.*
 
 **The above is opinion, and isn't to be followed;
 unless you agree to it by your own philosophy.** &nbsp;&nbsp;&nbsp;;)
