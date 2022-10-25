@@ -24,11 +24,10 @@ wireless links).*
 # What, then, is Programming?
 #### Introduction for Beginners: What is a Computer Language?
 
-From Leo Brodie:   # EXPERIMENT
-*does the line break damage the hyperlink or not*
+From Leo Brodie:
 
-[Starting Forth: Introductions]
-(https://www.forth.com/starting-forth/0-starting-forth/)
+[Starting Forth: Introductions](
+https://www.forth.com/starting-forth/0-starting-forth/)
 
 > At first when beginners hear the term “computer language,” they
 wonder, “What kind of language could a computer possibly speak? It
@@ -56,7 +55,7 @@ The microcontroller (`MCU`) chip itself accepts a long series of
 `1's and 0's` (ones and zeros) as its only means of communication
 (excepting analog, but that's another talk show).
 
-The *microcode* is just those 1's and 0's and doesn't need further
+The *microcode* is just those `1's and 0's` and doesn't need further
 support to function.
 
 *Assembly Language* is simply using those very same `1's and 0's`,
@@ -67,18 +66,18 @@ new 'program'.
 *Microcode* can be programmed using just front panel switches.
 Nothing else!
 
-![Altair 8800 from the Computer History Museum - Wikipedia]
-(https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg/1024px-Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg)
+![Altair 8800 from the Computer History Museum - Wikipedia](
+https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg/1024px-Altair_8800_at_the_Computer_History_Museum%2C_cropped.jpg)
 
-*Assembler* *(assembly language)* would require you to use some kind
-of a typewriter&mdash;or other keyboard-like device&mdash;so that you
-could use some kind of *language*&mdash;made-up, or borrowed from
-someone else&mdash;to 'talk' to the microcontroller, and give it
-*instructions on what to do*.
+*Assembler* *(assembly language)* would require you to use some
+kind of a typewriter&mdash;or other keyboard-like device&mdash;so
+that you could use some kind of *language*&mdash;made-up, or
+borrowed from someone else&mdash;to 'talk' to the microcontroller,
+and give it *instructions on what to do*.
 
 And when to do it.  How to do it!  When not to do it.  And, maybe,
-special instructions on what should be done if your
-*assumptions were incorrect*. ;)
+special instructions on what should be done if your *assumptions
+were incorrect*. ;)
 
 
 ```cpp
@@ -106,7 +105,8 @@ void loop() {
 
 [*Now Playing*](https://wokwi.com/projects/346503862192964178)
 &nbsp;&nbsp;*on*&nbsp;&nbsp;
-[*wokwi.com*](https://wokwi.com/)  &nbsp;&nbsp;&nbsp;&nbsp;*See it in action, now!*
+[*wokwi.com*](https://wokwi.com/)
+&nbsp;&nbsp;&nbsp;&nbsp;*See it in action, now!*
 
 
 # Massive skipping of details&hellip;
@@ -115,20 +115,41 @@ void loop() {
 
 ### Top down, bottom up, middle out
 
-So, the above program already works.  Here's a way to look at how it got made (see just below).
+So, the above program already *works*.  Here's a way to look at how
+it got made (see just below).
 
 ```cpp
 #include <Arduino.h>
 void setup() { } void loop() {} // END.
 ```
 
-This program compiles and 'runs' just fine, on wowki.  Doesn't do much; isn't meant to.
+This program compiles and 'runs' just fine, on wowki.  Doesn't do
+much; isn't meant to.
 
-In a sense, it has several placeholders for future ideas that were not (yet) typed into the computer (using some kind of *code editor* or just a *plaintext* editor).
+In a sense, it has several *placeholders* for *future ideas* that
+were not (yet) typed into the computer (using some kind of
+*code editor* or just a *plaintext* editor).
 
-`Top-down, bottom-up, middle-out` is an approach to programming; it surely has an accepted definition and description, but will be used here, only informally, to describe what the theory books will talk about in detail, using proper names for everything. ;)
 
-It's a tool.  You can use it, or fall back on your other skills and completely ignore it.  *Everyone develops a style of their own*.
+> *IF you leave a placeholder in, 'permanently', you have just
+> created a `hook`.
+> Do not put in hooks.  Ever.  Create them as required.
+> If you must, revision control has tools to help you remember
+> how to add the hook, when it is gtruly wanted.
+
+**The above is opinion, and isn't to be followed;
+unless you agree to it by your own philosophy.** &nbsp;&nbsp;&nbsp;;)
+
+`/netreligion`
+
+
+`Top-down, bottom-up, middle-out` is an approach to programming; it
+surely has an accepted definition and description, but will be used
+here, only informally, to describe what the theory books will talk
+about in detail, using proper names for everything. ;)
+
+It's a tool.  You can use it, or fall back on your other skills and
+completely ignore it.  *Everyone develops a style of their own*.
 
 ```cpp
 #include <Arduino.h>
@@ -381,6 +402,6 @@ That's pretty much it: fake code that is meant to *model* what you think should 
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Tue 25 Oct 16:45:33 UTC 2022 - timestamp only occasionally maintained ;)
+#### Tue 25 Oct 16:52:46 UTC 2022 - timestamp only occasionally maintained ;)
 
 #### END.
