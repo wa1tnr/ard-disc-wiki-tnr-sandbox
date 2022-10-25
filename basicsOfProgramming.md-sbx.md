@@ -198,6 +198,32 @@ void loop() {
 
 ### Then test it.
 
+```cpp
+
+#include <Arduino.h>
+
+void haha() {
+    Serial.println("When I die,");
+    Serial.println("Bury me deep;");
+    Serial.println("Put two speakers at my feet.");
+    Serial.println("Put some headphones on my head,");
+    Serial.println(".. and always play the Grateful Dead.");
+}
+
+void haha_old_delete_me() { // cruft - can stay for now.
+    Serial.println(" TEST abciq "); // weird message to recognize as ours
+}
+
+void setup() {
+    Serial.begin(9600);
+    haha();
+}
+
+void loop() {
+}
+
+// END.
+
 
 # DRAFT ONLY - INCOMPLETE
 #### Tue 25 Oct 15:58:07 UTC 2022 - timestamp only occasionally maintained ;)
