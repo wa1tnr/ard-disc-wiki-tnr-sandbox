@@ -225,7 +225,7 @@ void loop() {
 // END.
 ```
 
-So the program's 'working'.  People say that a lot: *"It's working. ;)"*
+So the program's 'working'.  People say that a lot: *"It's working."* &nbsp;&nbsp;&sem;)
 
 Better: It compiles.  It mostly does what was expected.  Does at least something useful.  Doesn't quite do what was in mind when it was first *edited as code*.
 
