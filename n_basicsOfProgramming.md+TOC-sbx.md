@@ -454,9 +454,9 @@ its *development*.
 * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
 
 * [Quick wokwi demo](#quick-wokwi-demo)
-* [Test it!](#then-test-it)
 * [Tools, not Rules](#tools-not-rules)
 * [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
+* [Test it!](#then-test-it)
 * [Psuedocode](#psuedocode)
 * [What's pseudocode?](#whats-pseudocode)
 
