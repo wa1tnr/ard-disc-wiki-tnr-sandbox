@@ -131,12 +131,24 @@ Here's a wokwi 'answer' to some of that:
 
 That lets you cheat, quite a bit. ;)
 
+
+> *Disclaimer: the above cheat comes directly from experience in 'Forth' programming (it's another programming language).  Forth programmers often resort to the C Preprocessor to coerce C++ program syntax&hellip; really, quite a bit. ;)*
+
+> *You're not 'supposed to' do this&mdash;there's a strong feeling about this, about.  Just be aware of it; it's a large detour from C++ itself, which is the 'Language of Arduino' so to speak.*
+
+
 ##### Hide those details in a library
 
 [*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
 **morse_beacon_cheaty.ino** *on wokwi*
 
+```
 
+
+zork:  "You see a jelly nailed to a tree, here.  Exits: East, Up, West"
+
+
+```
 
 # Massive skipping of details&hellip;
 ## TODO - missing details
