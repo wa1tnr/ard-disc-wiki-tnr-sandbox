@@ -121,22 +121,27 @@ void loop() {
 &nbsp;&nbsp;&nbsp;&nbsp;*See it in action, now!*
 
 #### Ok but this got complicated, fast
-**morse_beacon.ino** *on wokwi*
+
 Yeah, it did. ;)
 
 Here's a wokwi 'answer' to some of that:
 
 [*Misuse of C Preprocessor to simplify code*](https://wokwi.com/projects/346588077549945428)
+**morse_beacon.ino** *on wokwi*
 
 That lets you cheat, quite a bit. ;)
 
 ##### Hide those details in a library
 
+[*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
 **morse_beacon_cheaty.ino** *on wokwi*
 
-[*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
+
 
 # Massive skipping of details&hellip;
+## TODO - missing details
+
+
 
 ## Tools, not Rules
 
