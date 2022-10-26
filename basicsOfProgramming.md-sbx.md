@@ -121,7 +121,7 @@ void loop() {
 &nbsp;&nbsp;&nbsp;&nbsp;*See it in action, now!*
 
 #### Ok but this got complicated, fast
-
+**morse_beacon.ino** *on wokwi*
 Yeah, it did. ;)
 
 Here's a wokwi 'answer' to some of that:
@@ -131,9 +131,10 @@ Here's a wokwi 'answer' to some of that:
 That lets you cheat, quite a bit. ;)
 
 ##### Hide those details in a library
-[*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
 
-**TODO**  hide those details in the above link!
+**morse_beacon_cheaty.ino** *on wokwi*
+
+[*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
 
 # Massive skipping of details&hellip;
 
