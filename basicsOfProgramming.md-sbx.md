@@ -143,7 +143,7 @@ That lets you cheat, quite a bit. ;)
 **morse_beacon_cheaty.ino** *on wokwi*
 
 
-[*Misuse Morse with Beeps*](https://wokwi.com/projects/346607758885257811)
+[*Misuse Morse with Beeps*](https://wokwi.com/projects/346608451675226708)
 **morse_beacon_beeps.ino** *on wokwi*
 
 
