@@ -120,6 +120,15 @@ void loop() {
 [*wokwi.com*](https://wokwi.com/)
 &nbsp;&nbsp;&nbsp;&nbsp;*See it in action, now!*
 
+#### Ok but this got complicated, fast
+
+Yeah, it did. ;)
+
+Here's a wokwi 'answer' to some of that:
+
+[*Misuse of C Preprocessor to simplify code*](https://wokwi.com/projects/346588077549945428)
+
+That lets you cheat, quite a bit. ;)
 
 # Massive skipping of details&hellip;
 
