@@ -130,6 +130,11 @@ Here's a wokwi 'answer' to some of that:
 
 That lets you cheat, quite a bit. ;)
 
+##### Hide those details in a library
+[*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
+
+**TODO**  hide those details in the above link!
+
 # Massive skipping of details&hellip;
 
 ## Tools, not Rules
