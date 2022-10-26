@@ -476,8 +476,8 @@ its *development*.
   * **Introduction for Beginners: What is a Computer Language?**
   * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
   * [Quick wokwi demo](#quick-wokwi-demo)
-  * Ok but this got complicated, fast(#ok-but-this-got-complicated-fast)
-  * Hide those details in a library(#hide-those-details-in-a-library)
+  * [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
+  * [Hide those details in a library](#hide-those-details-in-a-library)
 * [Tools, not Rules](#tools-not-rules)
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
