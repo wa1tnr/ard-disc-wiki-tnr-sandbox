@@ -679,6 +679,14 @@ void loop() {
 
 *It's a bit simpler, now.*
 
+**What changed: second simplification of Blink with Weight**
+
+ * The C Preprocessor directives are gone (no more `#define`)
+ * The math inside the parentheses was done by hand, and the results were substituted
+
+**What was lost in the process of simplification**
+ * The individual numbers that make up the math had real value, to change timing of the LED `blink/dark` cycle.
+ * Those timings were distinct and could be easiy changed when they were still part of the `#define` statements; that ease of use/change/experimentation is no longer as evident.
 
 ## Discussion - Blink with Weight - LED blinker program
 
