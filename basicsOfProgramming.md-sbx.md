@@ -1,7 +1,5 @@
 # Basics of Programming | [HOME](README.md) |
 # What is Programming?
-## Discussion: Blinkwith
-[Discussion: Blinkwith](#discussion-blinkwith)
 
 [Table of Contents](#table-of-contents)
 
@@ -546,6 +544,21 @@ void loop() {
 
 ## Discussion - Blink with Weight - LED blinker program
 
+
+## Discussion: Blink With Weight
+
+*led blinker*
+
+[Discussion: Blink With Weight](#discussion-blink-with-weight)
+
+*The discussion itself goes here.*
+
+
+
+
+
+
+
 [Table of Contents](#table-of-contents)
 
 ## Pseudocode
@@ -585,6 +598,22 @@ its *development*.
   * [Test it!](#then-test-it)
   * [Blink with Weight](#blink-with-weight)
     [Discussion - Blink with Weight - LED blinker program](#discussion-blink-with-weight-led-blinker-program)
+
+
+## Discussion: Blink With Weight
+
+*led blinker*
+
+[Discussion: Blink With Weight](#discussion-blink-with-weight)
+
+*The discussion itself goes here.*
+
+
+
+
+
+
+
 * [Pseudocode](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
