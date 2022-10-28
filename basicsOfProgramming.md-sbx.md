@@ -964,7 +964,7 @@ Indeed.
 
 *Pseudocode is code you write without obeying real syntax rules;
 it's there for you, and is meant to remind you of something pretty
-close to what you wanted to 'program into the microcontoller' at
+close to what you wanted to 'program into the microcontroller' at
 some point (hopefully later today!)*
 
 That's pretty much it: fake code that is meant to *model* what you
