@@ -469,6 +469,8 @@ crudding it up with a `Mr. Obvious` announcement such as
 [*Blink With Weight*](https://wokwi.com/projects/346778138320044627)
 **blink_with_weight.ino** *on wokwi*
 
+(Scroll for discussion)
+
 `The code:`
 
 ```cpp
@@ -540,6 +542,8 @@ void loop() {
 // END.
 ```
 
+## Discussion - Blink with Weight - LED blinker program
+
 [Table of Contents](#table-of-contents)
 
 ## Pseudocode
@@ -578,6 +582,8 @@ its *development*.
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
   * [Blink with Weight](#blink-with-weight)
+    * [Discussion - Blink with Weight - LED blinker program](
+       #discussion-blink-with-weight-led-blinker program)
 * [Pseudocode](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
