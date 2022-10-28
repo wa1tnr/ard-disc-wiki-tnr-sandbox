@@ -542,9 +542,12 @@ void loop() {
 // END.
 ```
 
-### fgDiscussion - Blink with Weight - LED blinker program
 
-## Discussion: Blink With Weight
+## Discussion - Blink with Weight - LED blinker program
+
+### fgqqDiscussion - Blink with Weight - LED blinker program
+
+## xnpDiscussion: Blink With Weight
 
 *led blinker*
 
@@ -571,6 +574,10 @@ think should be *going on* in your *program* when it's either
 its *development*.
 
 
+
+
+
+
 # DRAFT ONLY - INCOMPLETE
 #### Wed 26 Oct 13:44:45 UTC 2022 - timestamp only occasionally maintained ;)
 
@@ -590,10 +597,11 @@ its *development*.
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
   * [Blink with Weight](#blink-with-weight)
-  * [Discussion - Blink with Weight - LED blinker program](#discussion-blink-with-weight-led-blinker-program)
+  * [fgDiscussion - Blink with Weight - LED blinker program](#fgdiscussion-blink-with-weight-led-blinker-program)
   * [Discussion: Blink With Weight](#discussion-blink-with-weight)
-
-* [Pseudocode](#pseudocode)
+  * [Discussion: Blink With Weight - LED](#discussion-blink-with-weight--led)
+  * [Discussion: words here](#discussion---blink-with-weight---led-blinker-program)
+  * [Pseudocode](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
