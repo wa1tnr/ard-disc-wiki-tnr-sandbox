@@ -900,6 +900,25 @@ void loop() {
 
 *Also renamed the LED_BLINK() function to get rid of the excess upper-case lettering.*
 
+#### Wait wait can't you just shove it in the loop?
+
+*You're right!  Missed that simplification. ;*
+
+**Compress the code - LED_BLINK() - ii**
+
+```cpp
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, 1); delay(200);
+  digitalWrite(LED_BUILTIN, 0); delay(1000);
+}
+```
+
+
+
 ## Discussion - Blink with Weight - LED blinker program
 
 *led blinker*
