@@ -120,45 +120,8 @@ void loop() {
 [*wokwi.com*](https://wokwi.com/)
 &nbsp;&nbsp;&nbsp;&nbsp;*See it in action, now!*
 
-#### Ok but this got complicated, fast
-
-Yeah, it did. ;)
-
-Here's a wokwi 'answer' to some of that:
-
-[*Misuse of C Preprocessor to simplify code*](https://wokwi.com/projects/346588077549945428)
-**morse_beacon.ino** *on wokwi*
-
-That lets you cheat, quite a bit. ;)
-
-
-> *Disclaimer: the above cheat comes directly from experience in 'Forth' programming (it's another programming language).  Forth programmers often resort to the C Preprocessor to coerce C++ program syntax&hellip; really, quite a bit. ;)*
-
-> *You're not 'supposed to' do this&mdash;there's a strong feeling about this, about.  Just be aware of it; it's a large detour from C++ itself, which is the 'Language of Arduino' so to speak.*
-
-
-##### Hide those details in a library
-
-[*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
-**morse_beacon_cheaty.ino** *on wokwi*
-
-
-[*Misuse Morse with Beeps*](https://wokwi.com/projects/346608451675226708)
-**morse_beacon_beeps.ino** *on wokwi*
-
-
-```
-
-
-zork:  "You see a jelly nailed to a tree, here.  Exits: East, Up, West"
-
-
-```
 
 # Massive skipping of details&hellip;
-## TODO - missing details
-
-
 
 ## Tools, not Rules
 
@@ -462,100 +425,6 @@ crudding it up with a `Mr. Obvious` announcement such as
 `You are entering the loop!`*
 
 
-# Blink with Weight
-
-[Table of Contents](#table-of-contents)
-
-[*Blink With Weight*](https://wokwi.com/projects/346778138320044627)
-**blink_with_weight.ino** *on wokwi*
-
-(Scroll for discussion)
-
-`The code:`
-
-```cpp
-// https://wokwi.com/projects/346778138320044627
-
-// Fri 28 Oct 16:03:11 UTC 2022
-
-// Blink an LED, over and over ('endless loop')
-
-void LED_ON() {
-  digitalWrite(LED_BUILTIN, 1);
-}
-
-void LED_OFF() {
-  digitalWrite(LED_BUILTIN, 0);
-}
-
-// ON_TIME  200     OFF_TIME  1000
-
-//  WEIGHT    5     UNIT_TIME    4
-//   SCALE   50
-
-#define WEIGHT 5 // OFF to ON ratio (time intervals)
-                 // larger WEIGHT gives more OFF time
-#define UNIT_TIME 4 // basis of all other timings
-#define SCALE 50 // scales all times evenly
-
-#define ON_TIME (UNIT_TIME * SCALE)
-#define OFF_TIME (ON_TIME * WEIGHT)
-
-void report() {
-  Serial.println("\n The red LED is marked 'L' on the Uno.");
-  Serial.println(" This program makes it blink.");
-
-  Serial.print("\n Your ON_TIME: ");
-  Serial.print(ON_TIME);
-  Serial.print("    Your OFF_TIME: ");
-  Serial.println(OFF_TIME);
-  Serial.println("");
-}
-
-
-void LED_BLINK () {
-  LED_ON();
-  delay(ON_TIME);
-  LED_OFF();
-  delay(OFF_TIME);
-}
-
-void setup_GPIO() {
-  pinMode(LED_BUILTIN, OUTPUT);
-  LED_OFF();
-}
-
-void setup_serial() {
-  Serial.begin(9600);
-}
-
-void setup() {
-  setup_GPIO();
-  setup_serial();
-  report();
-}
-
-void loop() {
-  LED_BLINK();
-}
-
-// END.
-```
-
-
-## Discussion - Blink with Weight - LED blinker program
-
-### fgqqDiscussion - Blink with Weight - LED blinker program
-
-## xnpDiscussion: Blink With Weight
-
-*led blinker*
-
-[Table of Contents](#table-of-contents)
-
-*The discussion itself goes here.*
-
-[Table of Contents](#table-of-contents)
 
 ## Pseudocode
 
@@ -575,7 +444,7 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Fri 28 Oct 16:48:22 UTC 2022 - timestamp only occasionally maintained ;)
+#### Tue 25 Oct 23:14:55 UTC 2022 - timestamp only occasionally maintained ;)
 
 # Table of Contents
 =================
@@ -587,14 +456,10 @@ its *development*.
   * **Introduction for Beginners: What is a Computer Language?**
   * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
   * [Quick wokwi demo](#quick-wokwi-demo)
-  * [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
-  * [Hide those details in a library](#hide-those-details-in-a-library)
 * [Tools, not Rules](#tools-not-rules)
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
-  * [Blink with Weight](#blink-with-weight)
-  * [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
-  * [Pseudocode](#pseudocode)
+* [Pseudocode](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
