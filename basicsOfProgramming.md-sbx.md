@@ -688,6 +688,62 @@ void loop() {
  * The individual numbers that make up the math had real value, to change timing of the LED `blink/dark` cycle.
  * Those timings were distinct and could be easiy changed when they were still part of the `#define` statements; that ease of use/change/experimentation is no longer as evident.
 
+
+#### Third simplification - Blink with Weight
+
+**Compress the code - LED_BLINK()**
+
+```cpp
+void xxxLED_ON() {
+  digitalWrite(LED_BUILTIN, 1);
+}
+
+void xxxLED_OFF() {
+  digitalWrite(LED_BUILTIN, 0);
+}
+
+void report() {
+  Serial.println("\n The red LED is marked 'L' on the Uno.");
+  Serial.println(" This program makes it blink.");
+
+  Serial.print("\n Your ON_TIME: ");
+  Serial.print(200);    // 4 * 50 = 200
+  Serial.print("    Your OFF_TIME: ");
+  Serial.println(1000); // 4 * 50 * 5 = 1000
+  Serial.println("");
+}
+
+void LED_BLINK () {
+  // LED_ON();
+  digitalWrite(LED_BUILTIN, 1);
+  delay(200);  // 4 * 50 = 200
+  // LED_OFF();
+  digitalWrite(LED_BUILTIN, 0);
+  delay(1000); // 4 * 50 * 5 = 1000
+}
+
+void setup_GPIO() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  LED_OFF();
+}
+
+void setup_serial() {
+  Serial.begin(9600);
+}
+
+void setup() {
+  setup_GPIO();
+  setup_serial();
+  report();
+}
+
+void loop() {
+  LED_BLINK();
+}
+// END.
+```
+
+
 ## Discussion - Blink with Weight - LED blinker program
 
 *led blinker*
