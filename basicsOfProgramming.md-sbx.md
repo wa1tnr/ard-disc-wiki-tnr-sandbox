@@ -574,12 +574,8 @@ think should be *going on* in your *program* when it's either
 its *development*.
 
 
-
-
-
-
 # DRAFT ONLY - INCOMPLETE
-#### Wed 26 Oct 13:44:45 UTC 2022 - timestamp only occasionally maintained ;)
+#### Fri 28 Oct 16:48:22 UTC 2022 - timestamp only occasionally maintained ;)
 
 # Table of Contents
 =================
@@ -599,10 +595,6 @@ its *development*.
   * [Blink with Weight](#blink-with-weight)
   * [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
   * [Pseudocode](#pseudocode)
-  * crufted links:
-   * [fgDiscussion - Blink with Weight - LED blinker program](#fgdiscussion-blink-with-weight-led-blinker-program)
-   * [Discussion: Blink With Weight](#discussion-blink-with-weight)
-   * [Discussion: Blink With Weight - LED](#discussion-blink-with-weight--led)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
