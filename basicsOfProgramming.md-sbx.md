@@ -146,9 +146,6 @@ That lets you cheat, quite a bit. ;)
 [*Misuse Morse with Beeps*](https://wokwi.com/projects/346608451675226708)
 **morse_beacon_beeps.ino** *on wokwi*
 
-[*Blink With Weight*](https://wokwi.com/projects/346778138320044627)
-**blink_with_weight.ino** *on wokwi*
-
 
 ```
 
@@ -465,6 +462,85 @@ crudding it up with a `Mr. Obvious` announcement such as
 `You are entering the loop!`*
 
 
+# Blink with Weight
+
+[Table of Contents](#table-of-contents)
+
+[*Blink With Weight*](https://wokwi.com/projects/346778138320044627)
+**blink_with_weight.ino** *on wokwi*
+
+`The code:`
+
+```cpp
+// https://wokwi.com/projects/346778138320044627
+
+// Fri 28 Oct 16:03:11 UTC 2022
+
+// Blink an LED, over and over ('endless loop')
+
+void LED_ON() {
+  digitalWrite(LED_BUILTIN, 1);
+}
+
+void LED_OFF() {
+  digitalWrite(LED_BUILTIN, 0);
+}
+
+// ON_TIME  200     OFF_TIME  1000
+
+//  WEIGHT    5     UNIT_TIME    4
+//   SCALE   50
+
+#define WEIGHT 5 // OFF to ON ratio (time intervals)
+                 // larger WEIGHT gives more OFF time
+#define UNIT_TIME 4 // basis of all other timings
+#define SCALE 50 // scales all times evenly
+
+#define ON_TIME (UNIT_TIME * SCALE)
+#define OFF_TIME (ON_TIME * WEIGHT)
+
+void report() {
+  Serial.println("\n The red LED is marked 'L' on the Uno.");
+  Serial.println(" This program makes it blink.");
+
+  Serial.print("\n Your ON_TIME: ");
+  Serial.print(ON_TIME);
+  Serial.print("    Your OFF_TIME: ");
+  Serial.println(OFF_TIME);
+  Serial.println("");
+}
+
+
+void LED_BLINK () {
+  LED_ON();
+  delay(ON_TIME);
+  LED_OFF();
+  delay(OFF_TIME);
+}
+
+void setup_GPIO() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  LED_OFF();
+}
+
+void setup_serial() {
+  Serial.begin(9600);
+}
+
+void setup() {
+  setup_GPIO();
+  setup_serial();
+  report();
+}
+
+void loop() {
+  LED_BLINK();
+}
+
+// END.
+```
+
+[Table of Contents](#table-of-contents)
 
 ## Pseudocode
 
@@ -501,6 +577,7 @@ its *development*.
 * [Tools, not Rules](#tools-not-rules)
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
+  * [Blink with Weight](#blink-with-weight)
 * [Pseudocode](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
