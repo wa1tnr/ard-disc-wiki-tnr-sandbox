@@ -865,6 +865,8 @@ void loop() {
 }
 // END.
 ```
+
+
 *Made things a bit more compact; the essential LED blink rate and duty cycle are unchanged.*
 
 *Note that the `delay()` statements were brought up to the
@@ -873,6 +875,30 @@ void loop() {
  space, there, and the clarity of the code doesn't suffer
  much (if at all) to do it that way.*
 
+
+#### Last simplification: no printing at all.
+
+*Maybe you don't have printing working, anyway, and already
+know enough without the printing statements.*
+
+**Compress the code - LED_BLINK() - ii**
+
+```cpp
+void LED_blink () {
+  digitalWrite(LED_BUILTIN, 1); delay(200);
+  digitalWrite(LED_BUILTIN, 0); delay(1000);
+}
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  LED_blink();
+}
+```
+
+*Also renamed the LED_BLINK() function to get rid of the excess upper-case lettering.*
 
 ## Discussion - Blink with Weight - LED blinker program
 
