@@ -799,6 +799,47 @@ void loop() {
 *Not necessarily 'better' but it is simpler!*
 
 
+
+
+#### Cram it all into setup() where it was split out into functions
+
+**Compress the code - LED_BLINK() - ii**
+
+```cpp
+void LED_BLINK () {
+  digitalWrite(LED_BUILTIN, 1);
+  delay(200);
+  digitalWrite(LED_BUILTIN, 0);
+  delay(1000);
+}
+
+void setup() {
+  // setup_GPIO();
+  pinMode(LED_BUILTIN, OUTPUT);
+
+  // setup_serial();
+  Serial.begin(9600);
+
+  // report();
+  Serial.println("\n The red LED is marked 'L' on the Uno.");
+  Serial.println(" This program makes it blink.");
+
+  Serial.print("\n Your ON_TIME: ");
+  Serial.print(200);
+  Serial.print("    Your OFF_TIME: ");
+  Serial.println(1000);
+  Serial.println("");
+}
+
+void loop() {
+  LED_BLINK();
+}
+// END.
+```
+
+
+
+
 ## Discussion - Blink with Weight - LED blinker program
 
 *led blinker*
