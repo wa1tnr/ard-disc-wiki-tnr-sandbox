@@ -603,7 +603,7 @@ void loop() {
 
 ### Blink with Weight - first simplification - discussion
 
-* You said it was simpler, but there's new stuff now!*
+*You said it was simpler, but there's new stuff now!*
 
 Yeah.
 
@@ -691,7 +691,7 @@ void loop() {
 
 #### Third simplification - Blink with Weight
 
-**Compress the code - LED_BLINK()**
+**Compress the code - LED_BLINK() - i**
 
 ```cpp
 void xxxLED_ON() {
@@ -742,6 +742,61 @@ void loop() {
 }
 // END.
 ```
+
+#### Remove the commented code and comment out the unused functions
+
+**Compress the code - LED_BLINK() - ii**
+
+```cpp
+// void xxxLED_ON() {
+  // digitalWrite(LED_BUILTIN, 1);
+// }
+
+// void xxxLED_OFF() {
+  // digitalWrite(LED_BUILTIN, 0);
+// }
+
+void report() {
+  Serial.println("\n The red LED is marked 'L' on the Uno.");
+  Serial.println(" This program makes it blink.");
+
+  Serial.print("\n Your ON_TIME: ");
+  Serial.print(200);
+  Serial.print("    Your OFF_TIME: ");
+  Serial.println(1000);
+  Serial.println("");
+}
+
+void LED_BLINK () {
+  digitalWrite(LED_BUILTIN, 1);
+  delay(200);
+  digitalWrite(LED_BUILTIN, 0);
+  delay(1000);
+}
+
+void setup_GPIO() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void setup_serial() {
+  Serial.begin(9600);
+}
+
+void setup() {
+  setup_GPIO();
+  setup_serial();
+  report();
+}
+
+void loop() {
+  LED_BLINK();
+}
+// END.
+```
+
+*Good.  Still runs exactly the same; code is a bit 'simpler' now.*
+
+*Not necessarily 'better' but it is simpler!*
 
 
 ## Discussion - Blink with Weight - LED blinker program
