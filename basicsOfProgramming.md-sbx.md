@@ -803,7 +803,7 @@ void loop() {
 
 #### Cram it all into setup() where it was split out into functions
 
-**Compress the code - LED_BLINK() - ii**
+**Compress the code - LED_BLINK() - iii**
 
 ```cpp
 void LED_BLINK () {
@@ -844,7 +844,7 @@ void loop() {
 
 *Nope. ;)*
 
-**Compress the code - LED_BLINK() - ii**
+**Compress the code - LED_BLINK() - iv**
 
 ```cpp
 void LED_BLINK () {
@@ -881,7 +881,7 @@ void loop() {
 *Maybe you don't have printing working, anyway, and already
 know enough without the printing statements.*
 
-**Compress the code - LED_BLINK() - ii**
+**Compress the code - LED_BLINK() - v**
 
 ```cpp
 void LED_blink () {
@@ -900,11 +900,13 @@ void loop() {
 
 *Also renamed the LED_BLINK() function to get rid of the excess upper-case lettering.*
 
+
+
 #### Wait wait can't you just shove it in the loop?
 
 *You're right!  Missed that simplification. ;*
 
-**Compress the code - LED_BLINK() - ii**
+**Compress the code - LED_BLINK() - vi**
 
 ```cpp
 void setup() {
@@ -918,6 +920,29 @@ void loop() {
 ```
 
 
+#### Okay that was a bit too stingy, what about making it look nice, again?
+
+*Good idea.*
+
+**Compress the code - LED_BLINK() - vii**
+
+```cpp
+void setup() {
+    pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+    digitalWrite(LED_BUILTIN, 1);
+    delay(200);
+
+    digitalWrite(LED_BUILTIN, 0);
+    delay(1000);
+}
+```
+
+#### That's kinda nice now!
+
+Indeed.
 
 ## Discussion - Blink with Weight - LED blinker program
 
