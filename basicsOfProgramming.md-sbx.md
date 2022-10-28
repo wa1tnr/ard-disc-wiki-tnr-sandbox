@@ -627,6 +627,57 @@ coded numbers where the multiplications went.
 That'll be next:
 
 
+**Factor - remove determinant math**
+
+```cpp
+void LED_ON() {
+  digitalWrite(LED_BUILTIN, 1);
+}
+
+void LED_OFF() {
+  digitalWrite(LED_BUILTIN, 0);
+}
+
+void report() {
+  Serial.println("\n The red LED is marked 'L' on the Uno.");
+  Serial.println(" This program makes it blink.");
+
+  Serial.print("\n Your ON_TIME: ");
+  Serial.print(200);    // 4 * 50 = 200
+  Serial.print("    Your OFF_TIME: ");
+  Serial.println(1000); // 4 * 50 * 5 = 1000
+  Serial.println("");
+}
+
+void LED_BLINK () {
+  LED_ON();
+  delay(200);  // 4 * 50 = 200
+  LED_OFF();
+  delay(1000); // 4 * 50 * 5 = 1000
+}
+
+void setup_GPIO() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  LED_OFF();
+}
+
+void setup_serial() {
+  Serial.begin(9600);
+}
+
+void setup() {
+  setup_GPIO();
+  setup_serial();
+  report();
+}
+
+void loop() {
+  LED_BLINK();
+}
+// END.
+```
+
+*It's a bit simpler, now.*
 
 
 ## Discussion - Blink with Weight - LED blinker program
