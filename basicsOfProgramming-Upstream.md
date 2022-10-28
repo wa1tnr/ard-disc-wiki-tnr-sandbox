@@ -545,10 +545,6 @@ void loop() {
 
 ## Discussion - Blink with Weight - LED blinker program
 
-### fgqqDiscussion - Blink with Weight - LED blinker program
-
-## xnpDiscussion: Blink With Weight
-
 *led blinker*
 
 [Table of Contents](#table-of-contents)
@@ -575,7 +571,7 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Fri 28 Oct 16:48:22 UTC 2022 - timestamp only occasionally maintained ;)
+#### Fri 28 Oct 17:29:31 UTC 2022 - timestamp only occasionally maintained ;)
 
 # Table of Contents
 =================
