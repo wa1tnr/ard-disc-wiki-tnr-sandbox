@@ -597,11 +597,12 @@ its *development*.
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
   * [Blink with Weight](#blink-with-weight)
-  * [fgDiscussion - Blink with Weight - LED blinker program](#fgdiscussion-blink-with-weight-led-blinker-program)
-  * [Discussion: Blink With Weight](#discussion-blink-with-weight)
-  * [Discussion: Blink With Weight - LED](#discussion-blink-with-weight--led)
-  * [Discussion: words here](#discussion---blink-with-weight---led-blinker-program)
+  * [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
   * [Pseudocode](#pseudocode)
+  * crufted links:
+   * [fgDiscussion - Blink with Weight - LED blinker program](#fgdiscussion-blink-with-weight-led-blinker-program)
+   * [Discussion: Blink With Weight](#discussion-blink-with-weight)
+   * [Discussion: Blink With Weight - LED](#discussion-blink-with-weight--led)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
