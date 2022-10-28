@@ -867,6 +867,12 @@ void loop() {
 ```
 *Made things a bit more compact; the essential LED blink rate and duty cycle are unchanged.*
 
+*Note that the `delay()` statements were brought up to the
+ same lines as the digitalWrite() statements, saving on
+ some vertical space.  There was a lot of unused empty
+ space, there, and the clarity of the code doesn't suffer
+ much (if at all) to do it that way.*
+
 
 ## Discussion - Blink with Weight - LED blinker program
 
