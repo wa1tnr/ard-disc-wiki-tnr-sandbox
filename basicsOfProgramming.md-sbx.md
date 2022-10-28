@@ -601,6 +601,33 @@ void loop() {
 // END.
 ```
 
+### Blink with Weight - first simplification - discussion
+
+* You said it was simpler, but there's new stuff now!*
+
+Yeah.
+
+The **C Preprocessor** was used to 'process' all the `#define` stuff.
+
+What it does is **substitute** what you would have typed by hand if
+you had never used a `#define` at all (for this use; there are other
+interesting uses for a `#define` that are different from this use!)
+
+In this case, the original `#define statements, some of them, were
+not simple substitutions of number.  Instead, they substituted
+multiplications, with the parentheses, and 'typed them into' the
+main program text, exactly as you could have done yourself, by hand.
+
+The C Preprocessor did not simplify further, so all the parentheses
+are intact.
+
+You can simplify further on your own, if you want simpler, hard-
+coded numbers where the multiplications went.
+
+That'll be next:
+
+
+
 
 ## Discussion - Blink with Weight - LED blinker program
 
