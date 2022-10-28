@@ -840,6 +840,34 @@ void loop() {
 
 
 
+#### Druids, man.
+
+*Nope. ;)*
+
+**Compress the code - LED_BLINK() - ii**
+
+```cpp
+void LED_BLINK () {
+  digitalWrite(LED_BUILTIN, 1); delay(200);
+  digitalWrite(LED_BUILTIN, 0); delay(1000);
+}
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
+  Serial.print("\n ON: "); Serial.print(200);
+  Serial.print("    OFF: "); Serial.println(1000);
+  Serial.println("");
+}
+
+void loop() {
+  LED_BLINK();
+}
+// END.
+```
+*Made things a bit more compact; the essential LED blink rate and duty cycle are unchanged.*
+
+
 ## Discussion - Blink with Weight - LED blinker program
 
 *led blinker*
