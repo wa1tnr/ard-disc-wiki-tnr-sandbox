@@ -462,6 +462,7 @@ crudding it up with a `Mr. Obvious` announcement such as
 `You are entering the loop!`*
 
 
+
 # Blink with Weight
 
 [Table of Contents](#table-of-contents)
@@ -992,8 +993,18 @@ its *development*.
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
   * [Blink with Weight](#blink-with-weight)
-  * [Discussion - Blink with Weight - LED blinker program](
-    #discussion---blink-with-weight---led-blinker-program)
+  * [Blink with Weight](#blink-with-weight)
+    * [Blink with Weight - first simplification](#blink-with-weight---first-simplification)
+    * [Blink with Weight - first simplification - discussion](#blink-with-weight---first-simplification---discussion)
+    * [Third simplification - Blink with Weight](#third-simplification---blink-with-weight)
+    * [Remove the commented code and comment out the unused functions](#remove-the-commented-code-and-comment-out-the-unused-functions)
+    * [Cram it all into setup() where it was split out into functions](#cram-it-all-into-setup-where-it-was-split-out-into-functions)
+    * [Druids, man.](#druids-man)
+    * [Last simplification: no printing at all.](#last-simplification-no-printing-at-all)
+    * [Wait wait can't you just shove it in the loop?](#wait-wait-cant-you-just-shove-it-in-the-loop)
+    * [Okay that was a bit too stingy, what about making it look nice, again?](#okay-that-was-a-bit-too-stingy-what-about-making-it-look-nice-again)
+    * [That's kinda nice now!](#thats-kinda-nice-now)
+  * [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
   * [Pseudocode](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
