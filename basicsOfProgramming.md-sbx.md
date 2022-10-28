@@ -522,7 +522,7 @@ void LED_BLINK () {
 
 void setup_GPIO() {
   pinMode(LED_BUILTIN, OUTPUT);
-  // LED_OFF();
+  LED_OFF();
 }
 
 void setup_serial() {
@@ -724,7 +724,7 @@ void LED_BLINK () {
 
 void setup_GPIO() {
   pinMode(LED_BUILTIN, OUTPUT);
-  LED_OFF();
+  // LED_OFF();
 }
 
 void setup_serial() {
