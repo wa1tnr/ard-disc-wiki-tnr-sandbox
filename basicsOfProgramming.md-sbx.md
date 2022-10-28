@@ -541,6 +541,65 @@ void loop() {
 
 // END.
 ```
+### Blink with Weight - first simplification
+
+*Can you simplify that, slightly?*
+
+Sure:
+
+
+```
+ $ cpp ./code.cpp > preprocessed-code.cpp
+ $ cat ./preprocessed-code.cpp
+```
+
+```cpp
+void LED_ON() {
+  digitalWrite(LED_BUILTIN, 1);
+}
+
+void LED_OFF() {
+  digitalWrite(LED_BUILTIN, 0);
+}
+
+void report() {
+  Serial.println("\n The red LED is marked 'L' on the Uno.");
+  Serial.println(" This program makes it blink.");
+
+  Serial.print("\n Your ON_TIME: ");
+  Serial.print((4 * 50));
+  Serial.print("    Your OFF_TIME: ");
+  Serial.println(((4 * 50) * 5));
+  Serial.println("");
+}
+
+void LED_BLINK () {
+  LED_ON();
+  delay((4 * 50));
+  LED_OFF();
+  delay(((4 * 50) * 5));
+}
+
+void setup_GPIO() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  LED_OFF();
+}
+
+void setup_serial() {
+  Serial.begin(9600);
+}
+
+void setup() {
+  setup_GPIO();
+  setup_serial();
+  report();
+}
+
+void loop() {
+  LED_BLINK();
+}
+// END.
+```
 
 
 ## Discussion - Blink with Weight - LED blinker program
