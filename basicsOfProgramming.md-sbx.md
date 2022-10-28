@@ -1,5 +1,7 @@
 # Basics of Programming | [HOME](README.md) |
 # What is Programming?
+## Discussion: Blinkwith
+[Discussion: Blinkwith](#discussion-blinkwith)
 
 [Table of Contents](#table-of-contents)
 
@@ -582,8 +584,7 @@ its *development*.
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
   * [Blink with Weight](#blink-with-weight)
-    * [Discussion - Blink with Weight - LED blinker program](
-       #discussion-blink-with-weight-led-blinker program)
+    [Discussion - Blink with Weight - LED blinker program](#discussion-blink-with-weight-led-blinker-program)
 * [Pseudocode](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
