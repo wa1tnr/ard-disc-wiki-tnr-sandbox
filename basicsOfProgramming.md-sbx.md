@@ -146,7 +146,8 @@ That lets you cheat, quite a bit. ;)
 [*Misuse Morse with Beeps*](https://wokwi.com/projects/346608451675226708)
 **morse_beacon_beeps.ino** *on wokwi*
 
-
+[*Blink With Weight*](https://wokwi.com/projects/346774202462765651)
+**blink_with_weight.ino** *on wokwi*
 
 
 ```
