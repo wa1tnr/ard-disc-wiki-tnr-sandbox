@@ -803,7 +803,7 @@ void loop() {
 
 #### Cram it all into setup() where it was split out into functions
 
-**Compress the code - LED_BLINK() - iii**
+**Compress the code - setup() - i**
 
 ```cpp
 void LED_BLINK () {
@@ -844,7 +844,7 @@ void loop() {
 
 *Nope. ;)*
 
-**Compress the code - LED_BLINK() - iv**
+**Compress the code - setup() - ii**
 
 ```cpp
 void LED_BLINK () {
@@ -869,6 +869,8 @@ void loop() {
 
 *Made things a bit more compact; the essential LED blink rate and duty cycle are unchanged.*
 
+`report()` remnants greatly reduced or compressed to simpler information printed.
+
 *Note that the `delay()` statements were brought up to the
  same lines as the digitalWrite() statements, saving on
  some vertical space.  There was a lot of unused empty
@@ -881,7 +883,7 @@ void loop() {
 *Maybe you don't have printing working, anyway, and already
 know enough without the printing statements.*
 
-**Compress the code - LED_BLINK() - v**
+**Compress the code - no printing at all**
 
 ```cpp
 void LED_blink () {
@@ -906,7 +908,7 @@ void loop() {
 
 *You're right!  Missed that simplification. ;*
 
-**Compress the code - LED_BLINK() - vi**
+**Compress the code - everything inside the loop()**
 
 ```cpp
 void setup() {
@@ -924,7 +926,7 @@ void loop() {
 
 *Good idea.*
 
-**Compress the code - LED_BLINK() - vii**
+**Compress the code - reformat for clarity and simplicity**
 
 ```cpp
 void setup() {
