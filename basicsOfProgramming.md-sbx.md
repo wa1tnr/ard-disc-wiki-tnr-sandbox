@@ -973,11 +973,7 @@ Indeed.
 
 *led blinker*
 
-[Table of Contents](#table-of-contents)
-
 *The discussion itself goes here.*
-
-[Table of Contents](#table-of-contents)
 
 ## Pseudocode
 
