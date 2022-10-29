@@ -88,6 +88,8 @@ were incorrect*. ;)
 
 ### Grateful program
 
+[Table of Contents](#table-of-contents)
+
 ```cpp
 // #include <Arduino.h> // optional
 
@@ -123,6 +125,8 @@ void loop() {
 
 #### Ok but this got complicated, fast
 
+[Table of Contents](#table-of-contents)
+
 Yeah, it did. ;)
 
 Here's a wokwi 'answer' to some of that:
@@ -139,6 +143,8 @@ That lets you cheat, quite a bit. ;)
 
 
 #### Hide those details in a library
+
+[Table of Contents](#table-of-contents)
 
 [*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
 **morse_beacon_cheaty.ino** *on wokwi*
@@ -162,6 +168,8 @@ zork:  "You see a jelly nailed to a tree, here.  Exits: East, Up, West"
 [Table of Contents](#table-of-contents)
 
 ### Top down, bottom up, middle out
+
+[Table of Contents](#table-of-contents)
 
 So, the above program already *works*.  Here's a way to look at how
 it got made (see just below).
