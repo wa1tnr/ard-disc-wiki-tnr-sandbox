@@ -463,7 +463,7 @@ crudding it up with a `Mr. Obvious` announcement such as
 
 
 
-# Blink with Weight
+# Blink with Weight 1st lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -542,7 +542,7 @@ void loop() {
 
 // END.
 ```
-### Blink with Weight - first simplification
+### Blink with Weight - first simplification 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -604,7 +604,7 @@ void loop() {
 // END.
 ```
 
-### Blink with Weight - first simplification - discussion
+### Blink with Weight - first simplification - discussion 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -632,7 +632,7 @@ coded numbers where the multiplications went.
 That'll be next:
 
 
-#### Factor - remove determinant math
+#### Factor - remove determinant math 4th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -686,14 +686,14 @@ void loop() {
 
 *It's a bit simpler, now.*
 
-##### What changed: second simplification of Blink with Weight
+##### What changed: second simplification of Blink with Weight 5th lvl
 
 [Table of Contents](#table-of-contents)
 
  * The C Preprocessor directives are gone (no more `#define`)
  * The math inside the parentheses was done by hand, and the results were substituted
 
-##### What was lost in the process of simplification
+##### What was lost in the process of simplification 5th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -701,7 +701,7 @@ void loop() {
  * Those timings were distinct and could be easiy changed when they were still part of the `#define` statements; that ease of use/change/experimentation is no longer as evident.
 
 
-#### Third simplification - Blink with Weight
+#### Third simplification - Blink with Weight 4th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -757,7 +757,7 @@ void loop() {
 // END.
 ```
 
-#### Remove the commented code and comment out the unused functions
+#### Remove the commented code and comment out the unused functions 4th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -817,7 +817,7 @@ void loop() {
 
 
 
-#### Cram it all into setup() where it was split out into functions
+#### Cram it all into setup() where it was split out into functions 4th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -858,7 +858,7 @@ void loop() {
 
 
 
-#### Druids, man.
+#### Druids, man. 4th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -898,7 +898,7 @@ void loop() {
  much (if at all) to do it that way.*
 
 
-#### Last simplification: no printing at all.
+#### Last simplification: no printing at all. 4th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -926,7 +926,7 @@ void loop() {
 
 
 
-#### Wait wait can't you just shove it in the loop?
+#### Wait wait can't you just shove it in the loop? 4th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -946,7 +946,7 @@ void loop() {
 ```
 
 
-#### Okay that was a bit too stingy, what about making it look nice, again?
+#### Okay that was a bit too stingy, what about making it look nice, again? 4th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -973,7 +973,7 @@ void loop() {
 Indeed.
 
 
-## Discussion - Blink with Weight - LED blinker program
+## Discussion - Blink with Weight - LED blinker program 2nd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -981,7 +981,7 @@ Indeed.
 
 *The discussion itself goes here.*
 
-## Pseudocode
+## Pseudocode 2nd lvl
 
 [Table of Contents](#table-of-contents)
 
