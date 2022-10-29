@@ -204,6 +204,8 @@ about in detail, using proper names for everything. ;)
 It's a tool.  You can use it, or fall back on your other skills and
 completely ignore it.  *Everyone develops a style of their own*.
 
+[Table of Contents](#table-of-contents)
+
 ```cpp
 #include <Arduino.h>
 
@@ -219,6 +221,7 @@ void loop() {
 *Slightly more formal - same exact program; just added some spacing
 to make it a bit easier to take in, while reading it over.*
 
+[Table of Contents](#table-of-contents)
 
 ```cpp
 #include <Arduino.h>
@@ -234,6 +237,8 @@ void loop() {
 ```
 
 ### Initialize the Serial stuph
+
+[Table of Contents](#table-of-contents)
 
 ```cpp
 #include <Arduino.h>
@@ -255,6 +260,7 @@ void loop() {
 
 &hellip; that will (later on) contain something interesting to do, after starting the Serial going (which lets you print stuph out).
 
+[Table of Contents](#table-of-contents)
 
 ```cpp
 #include <Arduino.h>
@@ -315,6 +321,8 @@ it was first *edited as code*.
 
 ### Comment out unused code
 
+[Table of Contents](#table-of-contents)
+
 ```cpp
 
 #include <Arduino.h>
@@ -356,6 +364,8 @@ construct.* &nbsp;&nbsp;;)
 
 ### Strip out commented code entirely
 
+[Table of Contents](#table-of-contents)
+
 ```cpp
 
 #include <Arduino.h>
@@ -385,6 +395,8 @@ easily recalled, as required.*
 
 ### What still remains to be done - snippet
 
+[Table of Contents](#table-of-contents)
+
 ```cpp
 // - - -  CODE SNIPPET - - - DOES NOT COMPILE - - -
 
@@ -405,6 +417,8 @@ program; scroll up to see it.*
 
 
 ### Add the repeating code to the loop
+
+[Table of Contents](#table-of-contents)
 
 ```cpp
 
@@ -436,6 +450,8 @@ And it does it, whatever is in there, repeatedly.*
 
 
 ### Fixup the `setup()` to separate events
+
+[Table of Contents](#table-of-contents)
 
 ```cpp
 
