@@ -961,11 +961,10 @@ void loop() {
 }
 ```
 
-#### That's kinda nice now!
-
-[Table of Contents](#table-of-contents)
+**That's kinda nice now!**
 
 Indeed.
+
 
 ## Discussion - Blink with Weight - LED blinker program
 
