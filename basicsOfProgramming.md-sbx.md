@@ -999,32 +999,32 @@ its *development*.
 =================
 
 * [Basics of Programming | <a href="README.md">HOME</a> |](#basics-of-programming--home-)
-  * **What is Programming?**
-  * **Scenario: potato-chip counting machine**
+ * **What is Programming?**
+ * **Scenario: potato-chip counting machine**
 * [What, then, is Programming?](#what-then-is-programming)
-  * **Introduction for Beginners: What is a Computer Language?**
-  * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
-  * [Quick wokwi demo](#quick-wokwi-demo)
-  * [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
-  * [Hide those details in a library](#hide-those-details-in-a-library)
+ * **Introduction for Beginners: What is a Computer Language?**
+ * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
+ * [Quick wokwi demo](#quick-wokwi-demo)
+ * [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
+ * [Hide those details in a library](#hide-those-details-in-a-library)
 * [Tools, not Rules](#tools-not-rules)
-  * **Top down, bottom up, middle out**
-  * [Test it!](#then-test-it)
-  * [Blink with Weight](#blink-with-weight)
-    * [Blink with Weight - first simplification](#blink-with-weight---first-simplification)
-    * [Blink with Weight - first simplification - discussion](#blink-with-weight---first-simplification---discussion)
-    * [Factor - remove determinant math](#factor---remove-determinant-math)
-     * [What changed: second simplification of Blink with Weight](#what-changed-second-simplification-of-blink-with-weight)
-     * [What was lost in the process of simplification](#what-was-lost-in-the-process-of-simplification)
-    * [Third simplification - Blink with Weight](#third-simplification---blink-with-weight)
-    * [Remove the commented code and comment out the unused functions](#remove-the-commented-code-and-comment-out-the-unused-functions)
-    * [Cram it all into setup() where it was split out into functions](#cram-it-all-into-setup-where-it-was-split-out-into-functions)
-    * [Druids, man.](#druids-man)
-    * [Last simplification: no printing at all.](#last-simplification-no-printing-at-all)
-    * [Wait wait can't you just shove it in the loop?](#wait-wait-cant-you-just-shove-it-in-the-loop)
-    * [Okay that was a bit too stingy, what about making it look nice, again?](#okay-that-was-a-bit-too-stingy-what-about-making-it-look-nice-again)
-  * [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
-  * [Pseudocode](#pseudocode)
+ * **Top down, bottom up, middle out**
+ * [Test it!](#then-test-it)
+ * [Blink with Weight](#blink-with-weight)
+  * [Blink with Weight - first simplification](#blink-with-weight---first-simplification)
+  * [Blink with Weight - first simplification - discussion](#blink-with-weight---first-simplification---discussion)
+   * [Factor - remove determinant math](#factor---remove-determinant-math)
+   * [What changed: second simplification of Blink with Weight](#what-changed-second-simplification-of-blink-with-weight)
+   * [What was lost in the process of simplification](#what-was-lost-in-the-process-of-simplification)
+  * [Third simplification - Blink with Weight](#third-simplification---blink-with-weight)
+  * [Remove the commented code and comment out the unused functions](#remove-the-commented-code-and-comment-out-the-unused-functions)
+  * [Cram it all into setup() where it was split out into functions](#cram-it-all-into-setup-where-it-was-split-out-into-functions)
+  * [Druids, man.](#druids-man)
+  * [Last simplification: no printing at all.](#last-simplification-no-printing-at-all)
+  * [Wait wait can't you just shove it in the loop?](#wait-wait-cant-you-just-shove-it-in-the-loop)
+  * [Okay that was a bit too stingy, what about making it look nice, again?](#okay-that-was-a-bit-too-stingy-what-about-making-it-look-nice-again)
+ * [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
+ * [Pseudocode](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
