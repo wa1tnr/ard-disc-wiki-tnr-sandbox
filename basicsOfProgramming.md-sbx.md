@@ -544,6 +544,8 @@ void loop() {
 ```
 ### Blink with Weight - first simplification
 
+[Table of Contents](#table-of-contents)
+
 *Can you simplify that, slightly?*
 
 Sure:
@@ -603,6 +605,8 @@ void loop() {
 ```
 
 ### Blink with Weight - first simplification - discussion
+
+[Table of Contents](#table-of-contents)
 
 *You said it was simpler, but there's new stuff now!*
 
@@ -692,6 +696,8 @@ void loop() {
 
 #### Third simplification - Blink with Weight
 
+[Table of Contents](#table-of-contents)
+
 **Compress the code - LED_BLINK() - i**
 
 ```cpp
@@ -745,6 +751,8 @@ void loop() {
 ```
 
 #### Remove the commented code and comment out the unused functions
+
+[Table of Contents](#table-of-contents)
 
 **Compress the code - LED_BLINK() - ii**
 
@@ -804,6 +812,8 @@ void loop() {
 
 #### Cram it all into setup() where it was split out into functions
 
+[Table of Contents](#table-of-contents)
+
 **Compress the code - setup() - i**
 
 ```cpp
@@ -843,6 +853,8 @@ void loop() {
 
 #### Druids, man.
 
+[Table of Contents](#table-of-contents)
+
 *Nope. ;)*
 
 **Compress the code - setup() - ii**
@@ -881,6 +893,8 @@ void loop() {
 
 #### Last simplification: no printing at all.
 
+[Table of Contents](#table-of-contents)
+
 *Maybe you don't have printing working, anyway, and already
 know enough without the printing statements.*
 
@@ -907,6 +921,8 @@ void loop() {
 
 #### Wait wait can't you just shove it in the loop?
 
+[Table of Contents](#table-of-contents)
+
 *You're right!  Missed that simplification. ;*
 
 **Compress the code - everything inside the loop()**
@@ -924,6 +940,8 @@ void loop() {
 
 
 #### Okay that was a bit too stingy, what about making it look nice, again?
+
+[Table of Contents](#table-of-contents)
 
 *Good idea.*
 
@@ -945,9 +963,13 @@ void loop() {
 
 #### That's kinda nice now!
 
+[Table of Contents](#table-of-contents)
+
 Indeed.
 
 ## Discussion - Blink with Weight - LED blinker program
+
+[Table of Contents](#table-of-contents)
 
 *led blinker*
 
@@ -975,7 +997,7 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Fri 28 Oct 17:41:37 UTC 2022 - timestamp only occasionally maintained ;)
+#### Sat 29 Oct 00:03:59 UTC 2022 - timestamp only occasionally maintained ;)
 
 # Table of Contents
 =================
