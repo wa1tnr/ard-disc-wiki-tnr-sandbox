@@ -463,7 +463,7 @@ crudding it up with a `Mr. Obvious` announcement such as
 
 
 
-# Blink with Weight 1st lvl
+## Blink with Weight
 
 [Table of Contents](#table-of-contents)
 
@@ -542,7 +542,7 @@ void loop() {
 
 // END.
 ```
-### Blink with Weight - first simplification 3rd lvl
+### Blink with Weight - first simplification
 
 [Table of Contents](#table-of-contents)
 
@@ -604,7 +604,7 @@ void loop() {
 // END.
 ```
 
-### Blink with Weight - first simplification - discussion 3rd lvl
+### Blink with Weight - first simplification - discussion
 
 [Table of Contents](#table-of-contents)
 
@@ -632,7 +632,7 @@ coded numbers where the multiplications went.
 That'll be next:
 
 
-### Factor - remove determinant math 3rd lvl
+### Factor - remove determinant math
 
 [Table of Contents](#table-of-contents)
 
@@ -686,14 +686,14 @@ void loop() {
 
 *It's a bit simpler, now.*
 
-#### What changed: second simplification of Blink with Weight 4th lvl
+#### What changed: second simplification of Blink with Weight
 
 [Table of Contents](#table-of-contents)
 
  * The C Preprocessor directives are gone (no more `#define`)
  * The math inside the parentheses was done by hand, and the results were substituted
 
-#### What was lost in the process of simplification 4th lvl
+#### What was lost in the process of simplification
 
 [Table of Contents](#table-of-contents)
 
@@ -701,7 +701,7 @@ void loop() {
  * Those timings were distinct and could be easiy changed when they were still part of the `#define` statements; that ease of use/change/experimentation is no longer as evident.
 
 
-### Third simplification - Blink with Weight 3rd lvl
+### Third simplification - Blink with Weight
 
 [Table of Contents](#table-of-contents)
 
@@ -757,7 +757,7 @@ void loop() {
 // END.
 ```
 
-### Remove the commented code and comment out the unused functions 3rd lvl
+### Remove the commented code and comment out the unused functions
 
 [Table of Contents](#table-of-contents)
 
@@ -815,7 +815,7 @@ void loop() {
 *Not necessarily 'better' but it is simpler!*
 
 
-### Cram it all into setup() where it was split out into functions 3rd lvl
+### Cram it all into setup() where it was split out into functions
 
 [Table of Contents](#table-of-contents)
 
@@ -854,7 +854,7 @@ void loop() {
 ```
 
 
-### Druids, man. 3rd lvl
+### Druids, man.
 
 [Table of Contents](#table-of-contents)
 
@@ -893,7 +893,7 @@ void loop() {
  much (if at all) to do it that way.*
 
 
-### Last simplification: no printing at all. 3rd lvl
+### Last simplification: no printing at all.
 
 [Table of Contents](#table-of-contents)
 
@@ -920,7 +920,7 @@ void loop() {
 *Also renamed the LED_BLINK() function to get rid of the excess upper-case lettering.*
 
 
-### Wait wait can't you just shove it in the loop? 3rd lvl
+### Wait wait can't you just shove it in the loop?
 
 [Table of Contents](#table-of-contents)
 
@@ -940,13 +940,13 @@ void loop() {
 ```
 
 
-### Okay that was a bit too stingy, what about making it look nice, again? 3rd lvl
+### Okay that was a bit too stingy, what about making it look nice, again?
 
 [Table of Contents](#table-of-contents)
 
 *Good idea.*
 
-**Compress the code - reformat for clarity and simplicity**
+&nbsp;&nbsp;&nbsp;&nbsp;**Compress the code - reformat for clarity and simplicity**
 
 ```cpp
 void setup() {
@@ -967,7 +967,7 @@ void loop() {
 Indeed.
 
 
-## Discussion - Blink with Weight - LED blinker program 2nd lvl
+## Discussion - Blink with Weight - LED blinker program
 
 [Table of Contents](#table-of-contents)
 
@@ -975,7 +975,7 @@ Indeed.
 
 *The discussion itself goes here.*
 
-## Pseudocode 2nd lvl
+## Pseudocode
 
 [Table of Contents](#table-of-contents)
 
@@ -999,31 +999,31 @@ its *development*.
 =================
 
 * [Basics of Programming | <a href="README.md">HOME</a> |](#basics-of-programming--home-)
- * **What is Programming?**
- * **Scenario: potato-chip counting machine**
+  * **What is Programming?**
+  * **Scenario: potato-chip counting machine**
 * [What, then, is Programming?](#what-then-is-programming)
- * **Introduction for Beginners: What is a Computer Language?**
- * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
- * [Quick wokwi demo](#quick-wokwi-demo)
- * [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
- * [Hide those details in a library](#hide-those-details-in-a-library)
+  * **Introduction for Beginners: What is a Computer Language?**
+  * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
+  * [Quick wokwi demo](#quick-wokwi-demo)
+  * [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
+  * [Hide those details in a library](#hide-those-details-in-a-library)
 * [Tools, not Rules](#tools-not-rules)
- * **Top down, bottom up, middle out**
- * [Test it!](#then-test-it)
- * [Blink with Weight](#blink-with-weight)
-  * [Blink with Weight - first simplification](#blink-with-weight---first-simplification)
-  * [Blink with Weight - first simplification - discussion](#blink-with-weight---first-simplification---discussion)
+  * **Top down, bottom up, middle out**
+  * [Test it!](#then-test-it)
+  * [Blink with Weight](#blink-with-weight)
+   * [Blink with Weight - first simplification](#blink-with-weight---first-simplification)
+   * [Blink with Weight - first simplification - discussion](#blink-with-weight---first-simplification---discussion)
    * [Factor - remove determinant math](#factor---remove-determinant-math)
-   * [What changed: second simplification of Blink with Weight](#what-changed-second-simplification-of-blink-with-weight)
-   * [What was lost in the process of simplification](#what-was-lost-in-the-process-of-simplification)
-  * [Third simplification - Blink with Weight](#third-simplification---blink-with-weight)
-  * [Remove the commented code and comment out the unused functions](#remove-the-commented-code-and-comment-out-the-unused-functions)
-  * [Cram it all into setup() where it was split out into functions](#cram-it-all-into-setup-where-it-was-split-out-into-functions)
-  * [Druids, man.](#druids-man)
-  * [Last simplification: no printing at all.](#last-simplification-no-printing-at-all)
-  * [Wait wait can't you just shove it in the loop?](#wait-wait-cant-you-just-shove-it-in-the-loop)
-  * [Okay that was a bit too stingy, what about making it look nice, again?](#okay-that-was-a-bit-too-stingy-what-about-making-it-look-nice-again)
- * [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
+    * [What changed: second simplification of Blink with Weight](#what-changed-second-simplification-of-blink-with-weight)
+    * [What was lost in the process of simplification](#what-was-lost-in-the-process-of-simplification)
+    * [Third simplification - Blink with Weight](#third-simplification---blink-with-weight)
+    * [Remove the commented code and comment out the unused functions](#remove-the-commented-code-and-comment-out-the-unused-functions)
+    * [Cram it all into setup() where it was split out into functions](#cram-it-all-into-setup-where-it-was-split-out-into-functions)
+    * [Druids, man.](#druids-man)
+    * [Last simplification: no printing at all.](#last-simplification-no-printing-at-all)
+    * [Wait wait can't you just shove it in the loop?](#wait-wait-cant-you-just-shove-it-in-the-loop)
+    * [Okay that was a bit too stingy, what about making it look nice, again?](#okay-that-was-a-bit-too-stingy-what-about-making-it-look-nice-again)
+  * [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
  * [Pseudocode](#pseudocode)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
