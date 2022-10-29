@@ -233,7 +233,7 @@ void loop() {
 // END.
 ```
 
-*Initialize the Serial stuph.*
+### Initialize the Serial stuph
 
 ```cpp
 #include <Arduino.h>
@@ -251,9 +251,9 @@ void loop() {
 // END.
 ```
 
-*Add a placeholder function called `haha()` that will (later on)
-contain something interesting to do, after starting the Serial going
-(which lets you print stuph out).*
+### Add a placeholder function called `haha()`
+
+&hellip; that will (later on) contain something interesting to do, after starting the Serial going (which lets you print stuph out).
 
 
 ```cpp
@@ -274,9 +274,7 @@ void loop() {
 // END.
 ```
 
-*Make `haha()` do something slightly interesting.*
-
-### Then test it.
+### Make `haha()` do something slightly interesting. Then test it
 
 [Table of Contents](#table-of-contents)
 
@@ -315,6 +313,8 @@ least something useful.  Doesn't quite do what was in mind when
 it was first *edited as code*.
 
 
+### Comment out unused code
+
 ```cpp
 
 #include <Arduino.h>
@@ -344,7 +344,7 @@ void loop() {
 // END.
 ```
 
-*Show a method for commenting-out code that does not spoil syntax
+*Shows a method for commenting-out code that does not spoil syntax
 highlighting inside the commented code.*
 
 Note that `Serial.priantln("message"):` is deliberately misspelled,
@@ -353,6 +353,8 @@ but still 'compiles clean'.
 *That was a test of the `#if 0` &hellip; `#endif`
 construct.* &nbsp;&nbsp;;)
 
+
+### Strip out commented code entirely
 
 ```cpp
 
@@ -381,6 +383,8 @@ void loop() {
 and is removed.  Don't worry, with revision control, it is
 easily recalled, as required.*
 
+### What still remains to be done - snippet
+
 ```cpp
 // - - -  CODE SNIPPET - - - DOES NOT COMPILE - - -
 
@@ -399,6 +403,8 @@ void loop() {
 This is really what's left to be done; *taken from the working
 program; scroll up to see it.*
 
+
+### Add the repeating code to the loop
 
 ```cpp
 
@@ -428,6 +434,8 @@ void loop() {
 *Now the loop is 'playing'.  It's got stuph inside of it.
 And it does it, whatever is in there, repeatedly.*
 
+
+### Fixup the `setup()` to separate events
 
 ```cpp
 
