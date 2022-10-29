@@ -226,6 +226,8 @@ void loop() {
 *Slightly more formal - same exact program; just added some spacing
 to make it a bit easier to take in, while reading it over.*
 
+### Initialize the Serial stuph
+
 [Table of Contents](#table-of-contents)
 
 ```cpp
@@ -241,7 +243,9 @@ void loop() {
 // END.
 ```
 
-### Initialize the Serial stuph
+### Add a placeholder function called `haha()`
+
+&hellip; that will (later on) contain something interesting to do, after starting the Serial going (which lets you print stuph out).
 
 [Table of Contents](#table-of-contents)
 
@@ -261,11 +265,10 @@ void loop() {
 // END.
 ```
 
-### Add a placeholder function called `haha()`
-
-&hellip; that will (later on) contain something interesting to do, after starting the Serial going (which lets you print stuph out).
+### Make `haha()` do something slightly interesting. Then test it
 
 [Table of Contents](#table-of-contents)
+
 
 ```cpp
 #include <Arduino.h>
@@ -285,9 +288,7 @@ void loop() {
 // END.
 ```
 
-### Make `haha()` do something slightly interesting. Then test it
-
-[Table of Contents](#table-of-contents)
+### It's working
 
 ```cpp
 
