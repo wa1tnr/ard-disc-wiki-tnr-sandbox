@@ -363,7 +363,7 @@ void loop() {
 *Shows a method for commenting-out code that does not spoil syntax
 highlighting inside the commented code.*
 
-Note that `Serial.priantln("message"):` is deliberately misspelled,
+Note that `Serial.priantln("message")` is deliberately misspelled,
 but still 'compiles clean'.
 
 *That was a test of the `#if 0` &hellip; `#endif`
@@ -650,7 +650,7 @@ What it does is **substitute** what you would have typed by hand if
 you had never used a `#define` at all (for this use; there are other
 interesting uses for a `#define` that are different from this use!)
 
-In this case, the original `#define statements, some of them, were
+In this case, the original `#define` statements, some of them, were
 not simple substitutions of number.  Instead, they substituted
 multiplications, with the parentheses, and 'typed them into' the
 main program text, exactly as you could have done yourself, by hand.
