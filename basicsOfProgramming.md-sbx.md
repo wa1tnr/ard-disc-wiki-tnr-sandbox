@@ -632,7 +632,7 @@ coded numbers where the multiplications went.
 That'll be next:
 
 
-**Factor - remove determinant math**
+#### Factor - remove determinant math
 
 ```cpp
 void LED_ON() {
@@ -1012,6 +1012,7 @@ its *development*.
   * [Blink with Weight](#blink-with-weight)
     * [Blink with Weight - first simplification](#blink-with-weight---first-simplification)
     * [Blink with Weight - first simplification - discussion](#blink-with-weight---first-simplification---discussion)
+    * [Factor - remove determinant math](#factor---remove-determinant-math)
     * [What changed: second simplification of Blink with Weight](#what-changed-second-simplification-of-blink-with-weight)
     * [What was lost in the process of simplification](#what-was-lost-in-the-process-of-simplification)
     * [Third simplification - Blink with Weight](#third-simplification---blink-with-weight)
@@ -1021,7 +1022,6 @@ its *development*.
     * [Last simplification: no printing at all.](#last-simplification-no-printing-at-all)
     * [Wait wait can't you just shove it in the loop?](#wait-wait-cant-you-just-shove-it-in-the-loop)
     * [Okay that was a bit too stingy, what about making it look nice, again?](#okay-that-was-a-bit-too-stingy-what-about-making-it-look-nice-again)
-    * [That's kinda nice now!](#thats-kinda-nice-now)
   * [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
   * [Pseudocode](#pseudocode)
 
