@@ -29,6 +29,8 @@ wireless links).*
 
 ### Introduction for Beginners: What is a Computer Language?
 
+[Table of Contents](#table-of-contents)
+
 From Leo Brodie:
 
 [Starting Forth: Introductions](
