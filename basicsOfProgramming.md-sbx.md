@@ -9,7 +9,7 @@ to do it, and if to keep on doing it 'forever' or for an amount of
 time, or (yup, there's more options) &hellip; until some resource
 it needs (to keep running) has been completely used up.
 
-#### Scenario: potato-chip counting machine
+## Scenario: potato-chip counting machine
 
 *You want to build a machine that counts potato chips in your potato
 chip factory.  It's a task well-suited to industrial microcontrollers,
@@ -23,11 +23,11 @@ instructions via wires &hellip; or, in the modern day, via
 wireless links).*
 
 
-# What, then, is Programming?
+## What, then, is Programming?
 
 [Table of Contents](#table-of-contents)
 
-#### Introduction for Beginners: What is a Computer Language?
+### Introduction for Beginners: What is a Computer Language?
 
 From Leo Brodie:
 
@@ -54,7 +54,7 @@ had to start somewhere*.  There are many *borrow-words* used in
 *programming*, taken from the learner's native (spoken and written;
 human; pre-computer) language.
 
-#### Nuts and Bolts of Programs
+### Nuts and Bolts of Programs
 
 [Table of Contents](#table-of-contents)
 
@@ -86,6 +86,7 @@ And when to do it.  How to do it!  When not to do it.  And, maybe,
 special instructions on what should be done if your *assumptions
 were incorrect*. ;)
 
+### Grateful program
 
 ```cpp
 // #include <Arduino.h> // optional
@@ -137,7 +138,7 @@ That lets you cheat, quite a bit. ;)
 > *You're not 'supposed to' do this&mdash;there's a strong feeling about this, about.  Just be aware of it; it's a large detour from C++ itself, which is the 'Language of Arduino' so to speak.*
 
 
-##### Hide those details in a library
+#### Hide those details in a library
 
 [*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
 **morse_beacon_cheaty.ino** *on wokwi*
@@ -154,10 +155,6 @@ zork:  "You see a jelly nailed to a tree, here.  Exits: East, Up, West"
 
 
 ```
-
-# Massive skipping of details&hellip;
-## TODO - missing details
-
 
 
 ## Tools, not Rules
