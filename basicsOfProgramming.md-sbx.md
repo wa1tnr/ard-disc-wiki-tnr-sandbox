@@ -632,7 +632,7 @@ coded numbers where the multiplications went.
 That'll be next:
 
 
-#### Factor - remove determinant math 4th lvl
+### Factor - remove determinant math 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -686,14 +686,14 @@ void loop() {
 
 *It's a bit simpler, now.*
 
-##### What changed: second simplification of Blink with Weight 5th lvl
+#### What changed: second simplification of Blink with Weight 4th lvl
 
 [Table of Contents](#table-of-contents)
 
  * The C Preprocessor directives are gone (no more `#define`)
  * The math inside the parentheses was done by hand, and the results were substituted
 
-##### What was lost in the process of simplification 5th lvl
+#### What was lost in the process of simplification 4th lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -701,7 +701,7 @@ void loop() {
  * Those timings were distinct and could be easiy changed when they were still part of the `#define` statements; that ease of use/change/experimentation is no longer as evident.
 
 
-#### Third simplification - Blink with Weight 4th lvl
+### Third simplification - Blink with Weight 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -757,7 +757,7 @@ void loop() {
 // END.
 ```
 
-#### Remove the commented code and comment out the unused functions 4th lvl
+### Remove the commented code and comment out the unused functions 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -815,9 +815,7 @@ void loop() {
 *Not necessarily 'better' but it is simpler!*
 
 
-
-
-#### Cram it all into setup() where it was split out into functions 4th lvl
+### Cram it all into setup() where it was split out into functions 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -856,9 +854,7 @@ void loop() {
 ```
 
 
-
-
-#### Druids, man. 4th lvl
+### Druids, man. 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -886,7 +882,6 @@ void loop() {
 // END.
 ```
 
-
 *Made things a bit more compact; the essential LED blink rate and duty cycle are unchanged.*
 
 `report()` remnants greatly reduced or compressed to simpler information printed.
@@ -898,7 +893,7 @@ void loop() {
  much (if at all) to do it that way.*
 
 
-#### Last simplification: no printing at all. 4th lvl
+### Last simplification: no printing at all. 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -925,8 +920,7 @@ void loop() {
 *Also renamed the LED_BLINK() function to get rid of the excess upper-case lettering.*
 
 
-
-#### Wait wait can't you just shove it in the loop? 4th lvl
+### Wait wait can't you just shove it in the loop? 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
@@ -946,7 +940,7 @@ void loop() {
 ```
 
 
-#### Okay that was a bit too stingy, what about making it look nice, again? 4th lvl
+### Okay that was a bit too stingy, what about making it look nice, again? 3rd lvl
 
 [Table of Contents](#table-of-contents)
 
