@@ -1015,7 +1015,6 @@ its *development*.
   * **Top down, bottom up, middle out**
   * [Test it!](#then-test-it)
   * [Blink with Weight](#blink-with-weight)
-  * [Blink with Weight](#blink-with-weight)
     * [Blink with Weight - first simplification](#blink-with-weight---first-simplification)
     * [Blink with Weight - first simplification - discussion](#blink-with-weight---first-simplification---discussion)
     * [Third simplification - Blink with Weight](#third-simplification---blink-with-weight)
