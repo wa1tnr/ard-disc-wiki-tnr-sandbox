@@ -114,7 +114,7 @@ void loop() {
 ```
 
 
-#### Quick wokwi demo
+### Quick wokwi demo
 
 [Table of Contents](#table-of-contents)
 
@@ -123,7 +123,7 @@ void loop() {
 [*wokwi.com*](https://wokwi.com/)
 &nbsp;&nbsp;&nbsp;&nbsp;*See it in action, now!*
 
-#### Ok but this got complicated, fast
+### Ok but this got complicated, fast
 
 [Table of Contents](#table-of-contents)
 
@@ -142,7 +142,7 @@ That lets you cheat, quite a bit. ;)
 > *You're not 'supposed to' do this&mdash;there's a strong feeling about this, about.  Just be aware of it; it's a large detour from C++ itself, which is the 'Language of Arduino' so to speak.*
 
 
-#### Hide those details in a library
+### Hide those details in a library
 
 [Table of Contents](#table-of-contents)
 
@@ -1022,7 +1022,7 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Sat 29 Oct 00:03:59 UTC 2022 - timestamp only occasionally maintained ;)
+#### Sat 29 Oct 01:27:54 UTC 2022 - timestamp only occasionally maintained ;)
 
 # Table of Contents
 =================
@@ -1034,9 +1034,9 @@ its *development*.
       * [Introduction for Beginners: What is a Computer Language?](#introduction-for-beginners-what-is-a-computer-language)
       * [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
       * [Grateful program](#grateful-program)
-         * [Quick wokwi demo](#quick-wokwi-demo)
-         * [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
-         * [Hide those details in a library](#hide-those-details-in-a-library)
+      * [Quick wokwi demo](#quick-wokwi-demo)
+      * [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
+      * [Hide those details in a library](#hide-those-details-in-a-library)
    * [Tools, not Rules](#tools-not-rules)
       * [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
       * [Initialize the Serial stuph](#initialize-the-serial-stuph)
