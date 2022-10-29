@@ -1023,7 +1023,7 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Sat 29 Oct 01:27:54 UTC 2022 - timestamp only occasionally maintained ;)
+#### Sat 29 Oct 01:36:56 UTC 2022 - timestamp only occasionally maintained ;)
 
 # Table of Contents
 =================
@@ -1043,6 +1043,7 @@ its *development*.
       * [Initialize the Serial stuph](#initialize-the-serial-stuph)
       * [Add a placeholder function called haha()](#add-a-placeholder-function-called-haha)
       * [Make haha() do something slightly interesting. Then test it](#make-haha-do-something-slightly-interesting-then-test-it)
+      * [It's working](#its-working)
       * [Comment out unused code](#comment-out-unused-code)
       * [Strip out commented code entirely](#strip-out-commented-code-entirely)
       * [What still remains to be done - snippet](#what-still-remains-to-be-done---snippet)
