@@ -9,38 +9,38 @@ to do it, and if to keep on doing it 'forever' or for an amount of
 time, or (yup, there's more options) &hellip; until some resource
 it needs (to keep running) has been completely used up.
 
-#### Scenario: potato-chip counting machine
-
-*You want to build a machine that counts potato chips in your potato
+> #### Scenario: potato-chip counting machine
+> 
+> *You want to build a machine that counts potato chips in your potato
 chip factory.  It's a task well-suited to industrial microcontrollers,
 which are smallish devices that often fit in the palm of your hand,
-for just the microcontroller 'chip' itself.*
+> for just the microcontroller 'chip' itself.*
 
-*A microcontroller is just another type of computer chip, but its
+A microcontroller is just another type of computer chip, but its
 specialty is dealing with the real world, through 'mechatronics'
 (electro-mechanical devices and other machinery that can accept
 instructions via wires &hellip; or, in the modern day, via
-wireless links).*
+wireless links).
 
-*So you wire it all up&hellip; your potato-chip counting
-machine&hellip; and start 'programming it'.*
-
-*Programming&hellip; the microcontroller chip found soldered to the
+> *So you wire it all up&hellip; your potato-chip counting
+> machine&hellip; and start 'programming it'.*
+> 
+> *Programming&hellip; the microcontroller chip found soldered to the
 target board (Arduino Uno, Leonardo, Mega2560&hellip; or
-other board).*
+> other board).*
 
-*It'll be a chip with a part number, such as `32u4` or `328p` and
+It'll be a chip with a part number, such as `32u4` or `328p` and
 usually has branding included (`ATMega 328p`, `ATMega 32u4`) depending
 on if it needs to be clarified, or if it's clear what chip is being
-discussed.*
+discussed.
 
-#### When you ask for help, include the model and part number
-
-[Table of Contents](#table-of-contents "Table Of Contents")
-
-*"I have an Uno R3 (328p) and I can compile a simple program for it,
+> #### When you ask for help, include the model and part number
+> 
+> [Table of Contents](#table-of-contents "Table Of Contents")
+> 
+> *"I have an Uno R3 (328p) and I can compile a simple program for it,
 upload the program to the Uno, and it seems to run (prints messages
-to the Serial Terminal, as expected).  But there's a problem&hellip;"*
+> to the Serial Terminal, as expected).  But there's a problem&hellip;"*
 
 
 # What, then, is Programming?
