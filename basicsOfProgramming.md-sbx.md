@@ -890,7 +890,7 @@ void loop() {
 
 ### Druids, man.
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#adruids "Table Of Contents")
 
 *Nope. ;)*
 
@@ -1062,6 +1062,7 @@ its *development*.
     - [Third simplification - Blink with Weight](#third-simplification---blink-with-weight)
     - [Remove the commented code and comment out the unused functions](#remove-the-commented-code-and-comment-out-the-unused-functions)
     - [Cram it all into setup() where it was split out into functions](#cram-it-all-into-setup-where-it-was-split-out-into-functions)
+      <a name="adruids"></a>
     - [Druids, man.](#druids-man)
     - [Last simplification: no printing at all.](#last-simplification-no-printing-at-all)
     - [Wait wait can't you just shove it in the loop?](#wait-wait-cant-you-just-shove-it-in-the-loop)
