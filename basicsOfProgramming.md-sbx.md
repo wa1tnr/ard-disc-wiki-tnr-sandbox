@@ -23,11 +23,16 @@ specialty is dealing with the real world, through 'mechatronics'
 instructions via wires &hellip; or, in the modern day, via
 wireless links).*
 
-*So you wire it all up and start 'programming it'.
+*So you wire it all up and start 'programming it'.*
 
-*Programming the microcontroller chip found soldered to the
+*Programming&hellip; the microcontroller chip found soldered to the
 target board (Arduino Uno, Leonardo, Mega2560&hellip; or
-other board).
+other board).*
+
+*It'll be a chip with a part number, such as `32u4` or `328p` and
+usually has branding included (`ATMega 328p`, `ATMega 32u4`) depending
+on if it needs to be clarified, or if it's clear what chip is being
+discussed.*
 
 
 # What, then, is Programming?
