@@ -34,11 +34,11 @@ usually has branding included (`ATMega 328p`, `ATMega 32u4`) depending
 on if it needs to be clarified, or if it's clear what chip is being
 discussed.*
 
-###### When you ask for help, include the model and part number
+#### When you ask for help, include the model and part number
 
 *"I have an Uno R3 (328p) and I can compile a simple program for it,
 upload the program to the Uno, and it seems to run (prints messages
-to the Serial Terminal, as expected.  But there's a problem&hellip;"*
+to the Serial Terminal, as expected).  But there's a problem&hellip;"*
 
 
 # What, then, is Programming?
