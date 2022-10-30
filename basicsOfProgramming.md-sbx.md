@@ -38,7 +38,7 @@ discussed.*
 
 *"I have an Uno R3 (328p) and I can compile a simple program for it,
 upload the program to the Uno, and it seems to run (prints messages
-to the Serial Terminal, as expected.  But there's a problem&hellip;"
+to the Serial Terminal, as expected.  But there's a problem&hellip;"*
 
 
 # What, then, is Programming?
