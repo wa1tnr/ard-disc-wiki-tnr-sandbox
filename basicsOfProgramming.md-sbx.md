@@ -169,7 +169,7 @@ zork:  "You see a jelly nailed to a tree, here.  Exits: East, Up, West"
 
 ## Tools, not Rules
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ### Top down, bottom up, middle out
 
@@ -499,7 +499,7 @@ crudding it up with a `Mr. Obvious` announcement such as
 
 ## Blink with Weight
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
 [*Blink With Weight*](https://wokwi.com/projects/346778138320044627)
 **blink_with_weight.ino** *on wokwi*
@@ -890,7 +890,7 @@ void loop() {
 
 ### Druids, man.
 
-[Table of Contents](#adruids "Table Of Contents")
+[Table of Contents](#toc-adruids-man "Table Of Contents")
 
 *Nope. ;)*
 
@@ -929,7 +929,7 @@ void loop() {
 
 ### Last simplification: no printing at all.
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-adruids-man "Table Of Contents")
 
 *Maybe you don't have printing working, anyway, and already
 know enough without the printing statements.*
@@ -956,7 +956,7 @@ void loop() {
 
 ### Wait wait can't you just shove it in the loop?
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-adruids-man "Table Of Contents")
 
 *You're right!  Missed that simplification. ;*
 
@@ -976,7 +976,7 @@ void loop() {
 
 ### Okay that was a bit too stingy, what about making it look nice, again?
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-adruids-man "Table Of Contents")
 
 *Good idea.*
 
@@ -1003,7 +1003,7 @@ Indeed.
 
 ## Discussion - Blink with Weight - LED blinker program
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-adruids-man "Table Of Contents")
 
 *led blinker*
 
@@ -1011,7 +1011,7 @@ Indeed.
 
 ## Pseudocode
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-adruids-man "Table Of Contents")
 
 #### What's pseudocode?
 
@@ -1027,7 +1027,7 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Sat 29 Oct 01:36:56 UTC 2022 - timestamp only occasionally maintained ;)
+#### Sun 30 Oct 15:40:13 UTC 2022 - timestamp only occasionally maintained ;)
 
 # Table of Contents
 =================
@@ -1042,6 +1042,7 @@ its *development*.
       - [Quick wokwi demo](#quick-wokwi-demo)
     - [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
     - [Hide those details in a library](#hide-those-details-in-a-library)
+    <a name="toc-tools-not-rules"></a>
   - [Tools, not Rules](#tools-not-rules)
     - [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
     - [Initialize the Serial stuph](#initialize-the-serial-stuph)
@@ -1053,6 +1054,7 @@ its *development*.
     - [What still remains to be done - snippet](#what-still-remains-to-be-done---snippet)
     - [Add the repeating code to the loop](#add-the-repeating-code-to-the-loop)
     - [Fixup the `setup()` to separate events](#fixup-the-setup-to-separate-events)
+    <a name="toc-blink-with-weight"></a>
   - [Blink with Weight](#blink-with-weight)
     - [Blink with Weight - first simplification](#blink-with-weight---first-simplification)
     - [Blink with Weight - first simplification - discussion](#blink-with-weight---first-simplification---discussion)
@@ -1062,7 +1064,7 @@ its *development*.
     - [Third simplification - Blink with Weight](#third-simplification---blink-with-weight)
     - [Remove the commented code and comment out the unused functions](#remove-the-commented-code-and-comment-out-the-unused-functions)
     - [Cram it all into setup() where it was split out into functions](#cram-it-all-into-setup-where-it-was-split-out-into-functions)
-      <a name="adruids"></a>
+      <a name="toc-adruids-man"></a>
     - [Druids, man.](#druids-man)
     - [Last simplification: no printing at all.](#last-simplification-no-printing-at-all)
     - [Wait wait can't you just shove it in the loop?](#wait-wait-cant-you-just-shove-it-in-the-loop)
