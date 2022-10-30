@@ -3,7 +3,6 @@
 
 [Table of Contents](#table-of-contents "Table Of Contents")
 
-
 *Programming* is a means to tell a computer (or, in the case of
 the Arduino, a *microcontroller*) what to do, when to do it and how
 to do it, and if to keep on doing it 'forever' or for an amount of
@@ -155,26 +154,33 @@ Yeah, it did. ;)
 
 Here's a wokwi 'answer' to some of that:
 
-[*Misuse of C Preprocessor to simplify code*](https://wokwi.com/projects/346588077549945428)
+[*Misuse of C Preprocessor to simplify code*](
+https://wokwi.com/projects/346588077549945428)
 **morse_beacon.ino** *on wokwi*
 
 That lets you cheat, quite a bit. ;)
 
 
-> *Disclaimer: the above cheat comes directly from experience in 'Forth' programming (it's another programming language).  Forth programmers often resort to the C Preprocessor to coerce C++ program syntax&hellip; really, quite a bit. ;)*
+> *Disclaimer: the above cheat comes directly from experience in
+'Forth' programming (it's another programming language).  Forth
+programmers often resort to the C Preprocessor to coerce C++ program
+syntax&hellip; really, quite a bit. ;)*
 
-> *You're not 'supposed to' do this&mdash;there's a strong feeling about this, about.  Just be aware of it; it's a large detour from C++ itself, which is the 'Language of Arduino' so to speak.*
-
+> *You're not 'supposed to' do this&mdash;there's a strong feeling
+about this, about.  Just be aware of it; it's a large detour from
+C++ itself, which is the 'Language of Arduino' so to speak.*
 
 ### Hide those details in a library
 
 [Table of Contents](#table-of-contents "Table Of Contents")
 
-[*Misuse Morse with Hidden Details*](https://wokwi.com/projects/346589390531723859)
+[*Misuse Morse with Hidden Details*](
+https://wokwi.com/projects/346589390531723859)
 **morse_beacon_cheaty.ino** *on wokwi*
 
 
-[*Misuse Morse with Beeps*](https://wokwi.com/projects/346608451675226708)
+[*Misuse Morse with Beeps*](
+https://wokwi.com/projects/346608451675226708)
 **morse_beacon_beeps.ino** *on wokwi*
 
 
@@ -269,7 +275,8 @@ void loop() {
 
 ### Add a placeholder function called `haha()`
 
-&hellip; that will (later on) contain something interesting to do, after starting the Serial going (which lets you print stuph out).
+&hellip; that will (later on) contain something interesting to do,
+after starting the Serial going (which lets you print stuph out).
 
 [Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
@@ -523,7 +530,8 @@ crudding it up with a `Mr. Obvious` announcement such as
 
 [Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
-[*Blink With Weight*](https://wokwi.com/projects/346778138320044627)
+[*Blink With Weight*](
+https://wokwi.com/projects/346778138320044627)
 **blink_with_weight.ino** *on wokwi*
 
 (Scroll for discussion)
@@ -747,15 +755,21 @@ void loop() {
 [Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
  * The C Preprocessor directives are gone (no more `#define`)
- * The math inside the parentheses was done by hand, and the results were substituted
+ * The math inside the parentheses was done by hand, and the results
+   were substituted
 
 #### What was lost in the process of simplification
 
 [Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
- * The individual numbers that make up the math had real value, to change timing of the LED `blink/dark` cycle.
- * Those timings were distinct and could be easiy changed when they were still part of the `#define` statements; that ease of use/change/experimentation is no longer as evident.
+ * The individual numbers that make up the math had real value, to
+   change timing of the LED `blink/dark` cycle.
+ * Those timings were distinct and could be easiy changed when they
+   were still part of the `#define` statements; that ease of
+   use/change/experimentation is no longer as evident.
 
+1234567890123456789012345678901234567890123456789012345678901234567..]..34567890
+1234567890123456789012345678901234567890123456789012345678901234567..]..34567890
 
 ### Third simplification - Blink with Weight
 
