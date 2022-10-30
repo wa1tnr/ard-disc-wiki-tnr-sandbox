@@ -23,6 +23,12 @@ specialty is dealing with the real world, through 'mechatronics'
 instructions via wires &hellip; or, in the modern day, via
 wireless links).*
 
+*So you wire it all up and start 'programming it'.
+
+*Programming the microcontroller chip found soldered to the
+target board (Arduino Uno, Leonardo, Mega2560&hellip; or
+other board).
+
 
 # What, then, is Programming?
 
@@ -93,6 +99,8 @@ were incorrect*. ;)
 ### Grateful program
 
 [Table of Contents](#table-of-contents "Table Of Contents")
+
+**This is what a simple program might look like, in the** ***Arduino IDE*** **:**
 
 ```cpp
 // #include <Arduino.h> // optional
