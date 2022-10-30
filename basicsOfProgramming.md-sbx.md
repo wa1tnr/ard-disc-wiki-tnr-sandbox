@@ -578,7 +578,7 @@ void loop() {
 ```
 ### Blink with Weight - first simplification
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
 *Can you simplify that, slightly?*
 
@@ -640,7 +640,7 @@ void loop() {
 
 ### Blink with Weight - first simplification - discussion
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
 *You said it was simpler, but there's new stuff now!*
 
@@ -668,7 +668,7 @@ That'll be next:
 
 ### Factor - remove determinant math
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
 ```cpp
 void LED_ON() {
@@ -722,14 +722,14 @@ void loop() {
 
 #### What changed: second simplification of Blink with Weight
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
  * The C Preprocessor directives are gone (no more `#define`)
  * The math inside the parentheses was done by hand, and the results were substituted
 
 #### What was lost in the process of simplification
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
  * The individual numbers that make up the math had real value, to change timing of the LED `blink/dark` cycle.
  * Those timings were distinct and could be easiy changed when they were still part of the `#define` statements; that ease of use/change/experimentation is no longer as evident.
@@ -737,7 +737,7 @@ void loop() {
 
 ### Third simplification - Blink with Weight
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
 **Compress the code - LED_BLINK() - i**
 
@@ -793,7 +793,7 @@ void loop() {
 
 ### Remove the commented code and comment out the unused functions
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
 **Compress the code - LED_BLINK() - ii**
 
@@ -851,7 +851,7 @@ void loop() {
 
 ### Cram it all into setup() where it was split out into functions
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-blink-with-weight "Table Of Contents")
 
 **Compress the code - setup() - i**
 
