@@ -768,9 +768,6 @@ void loop() {
    were still part of the `#define` statements; that ease of
    use/change/experimentation is no longer as evident.
 
-1234567890123456789012345678901234567890123456789012345678901234567..]..34567890
-1234567890123456789012345678901234567890123456789012345678901234567..]..34567890
-
 ### Third simplification - Blink with Weight
 
 [Table of Contents](#toc-blink-with-weight "Table Of Contents")
@@ -952,15 +949,17 @@ void loop() {
 // END.
 ```
 
-*Made things a bit more compact; the essential LED blink rate and duty cycle are unchanged.*
+*Made things a bit more compact; the essential LED blink rate and
+duty cycle are unchanged.*
 
-`report()` remnants greatly reduced or compressed to simpler information printed.
+`report()` remnants greatly reduced or compressed to simpler
+information printed.
 
-*Note that the `delay()` statements were brought up to the
- same lines as the digitalWrite() statements, saving on
- some vertical space.  There was a lot of unused empty
- space, there, and the clarity of the code doesn't suffer
- much (if at all) to do it that way.*
+*Note that the `delay()` statements were brought up to the same
+lines as the `digitalWrite()` statements, saving on some vertical
+space.  There was a lot of unused empty space, there, and the
+clarity of the code doesn't suffer much (if at all) to do it
+that way.*
 
 
 ### Last simplification: no printing at all.
@@ -987,7 +986,8 @@ void loop() {
 }
 ```
 
-*Also renamed the LED_BLINK() function to get rid of the excess upper-case lettering.*
+*Also renamed the LED_BLINK() function to get rid of the excess
+upper-case lettering.*
 
 
 ### Wait wait can't you just shove it in the loop?
@@ -1016,7 +1016,8 @@ void loop() {
 
 *Good idea.*
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Compress the code - reformat for clarity and simplicity**
+&nbsp;&nbsp;&nbsp;&nbsp;**Compress the code - reformat for clarity
+and simplicity**
 
 ```cpp
 void setup() {
@@ -1063,7 +1064,8 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Sun 30 Oct 17:39:09 UTC 2022 - timestamp only occasionally maintained ;)
+`1234567890123456789012345678901234567890123456789012345678901234567..]..345`
+#### Sun 30 Oct 19:17:02 UTC 2022 - timestamp only occasionally maintained ;)
 
 Table of Contents
 =================
