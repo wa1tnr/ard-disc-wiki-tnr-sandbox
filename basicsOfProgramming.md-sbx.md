@@ -23,7 +23,8 @@ specialty is dealing with the real world, through 'mechatronics'
 instructions via wires &hellip; or, in the modern day, via
 wireless links).*
 
-*So you wire it all up and start 'programming it'.*
+*So you wire it all up&hellip; your potato-chip counting
+machine&hellip; and start 'programming it'.*
 
 *Programming&hellip; the microcontroller chip found soldered to the
 target board (Arduino Uno, Leonardo, Mega2560&hellip; or
