@@ -173,7 +173,7 @@ zork:  "You see a jelly nailed to a tree, here.  Exits: East, Up, West"
 
 ### Top down, bottom up, middle out
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 So, the above program already *works*.  Here's a way to look at how
 it got made (see just below).
@@ -213,7 +213,7 @@ about in detail, using proper names for everything. ;)
 It's a tool.  You can use it, or fall back on your other skills and
 completely ignore it.  *Everyone develops a style of their own*.
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ```cpp
 #include <Arduino.h>
@@ -232,7 +232,7 @@ to make it a bit easier to take in, while reading it over.*
 
 ### Initialize the Serial stuph
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ```cpp
 #include <Arduino.h>
@@ -251,7 +251,7 @@ void loop() {
 
 &hellip; that will (later on) contain something interesting to do, after starting the Serial going (which lets you print stuph out).
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ```cpp
 #include <Arduino.h>
@@ -271,7 +271,7 @@ void loop() {
 
 ### Make `haha()` do something slightly interesting. Then test it
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 
 ```cpp
@@ -294,7 +294,7 @@ void loop() {
 
 ### It's working
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ```cpp
 
@@ -333,7 +333,7 @@ it was first *edited as code*.
 
 ### Comment out unused code
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ```cpp
 
@@ -376,7 +376,7 @@ construct.* &nbsp;&nbsp;;)
 
 ### Strip out commented code entirely
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ```cpp
 
@@ -407,7 +407,7 @@ easily recalled, as required.*
 
 ### What still remains to be done - snippet
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ```cpp
 // - - -  CODE SNIPPET - - - DOES NOT COMPILE - - -
@@ -430,7 +430,7 @@ program; scroll up to see it.*
 
 ### Add the repeating code to the loop
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ```cpp
 
@@ -463,7 +463,7 @@ And it does it, whatever is in there, repeatedly.*
 
 ### Fixup the `setup()` to separate events
 
-[Table of Contents](#table-of-contents "Table Of Contents")
+[Table of Contents](#toc-tools-not-rules "Table Of Contents")
 
 ```cpp
 
@@ -1029,7 +1029,7 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Sun 30 Oct 17:33:11 UTC 2022 - timestamp only occasionally maintained ;)
+#### Sun 30 Oct 17:39:09 UTC 2022 - timestamp only occasionally maintained ;)
 
 Table of Contents
 =================
