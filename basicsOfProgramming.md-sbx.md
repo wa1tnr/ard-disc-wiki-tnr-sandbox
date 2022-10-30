@@ -36,6 +36,8 @@ discussed.*
 
 #### When you ask for help, include the model and part number
 
+[Table of Contents](#table-of-contents "Table Of Contents")
+
 *"I have an Uno R3 (328p) and I can compile a simple program for it,
 upload the program to the Uno, and it seems to run (prints messages
 to the Serial Terminal, as expected).  But there's a problem&hellip;"*
@@ -193,6 +195,8 @@ zork:  "You see a jelly nailed to a tree, here.  Exits: East, Up, West"
 ```
 
 ## The C++ Language is the language used in the Arduino IDE
+
+[Table of Contents](#table-of-contents "Table Of Contents")
 
 There's a 'computer language' called `C++` that is used in the
 Arduino IDE, similarly to how `C++` is used on your desktop PC.
@@ -1088,7 +1092,8 @@ Table of Contents
 - [What is Programming?](#what-is-programming)
       - [Scenario: potato-chip counting machine](#scenario-potato-chip-counting-machine)
       - [When you ask for help, include the model and part number](
-        #when-you-ask-for-help,-include-the model-and-part-number)
+        #when-you-ask-for-help-include-the-model-and-part-number)
+
 - [What, then, is Programming?](#what-then-is-programming)
       - [Introduction for Beginners: What is a Computer Language?](#introduction-for-beginners-what-is-a-computer-language)
   - [Nuts and Bolts of Programs](#nuts-and-bolts-of-programs)
@@ -1096,6 +1101,10 @@ Table of Contents
       - [Quick wokwi demo](#quick-wokwi-demo)
     - [Ok but this got complicated, fast](#ok-but-this-got-complicated-fast)
     - [Hide those details in a library](#hide-those-details-in-a-library)
+
+  - [The C++ Language is the language used in the Arduino IDE](
+    #the-c-language-is-the-language-used-in-the-arduino-ide)
+
     <a name="toc-tools-not-rules"></a>
   - [Tools, not Rules](#tools-not-rules)
     - [Top down, bottom up, middle out](#top-down-bottom-up-middle-out)
