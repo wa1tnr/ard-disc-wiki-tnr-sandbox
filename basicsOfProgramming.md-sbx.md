@@ -1027,9 +1027,9 @@ its *development*.
 
 
 # DRAFT ONLY - INCOMPLETE
-#### Sun 30 Oct 15:40:13 UTC 2022 - timestamp only occasionally maintained ;)
+#### Sun 30 Oct 17:33:11 UTC 2022 - timestamp only occasionally maintained ;)
 
-# Table of Contents
+Table of Contents
 =================
 
 - [Basics of Programming | HOME |](#basics-of-programming--home-)
@@ -1071,11 +1071,6 @@ its *development*.
     - [Okay that was a bit too stingy, what about making it look nice, again?](#okay-that-was-a-bit-too-stingy-what-about-making-it-look-nice-again)
   - [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
   - [Pseudocode](#pseudocode)
-      - [What's pseudocode?](#whats-pseudocode)
-- [DRAFT ONLY - INCOMPLETE](#draft-only---incomplete)
-      - [Sat 29 Oct 01:36:56 UTC 2022 - timestamp only occasionally maintained ;)](#sat-29-oct-013656-utc-2022---timestamp-only-occasionally-maintained-)
-- [# Table of Contents](#-table-of-contents)
-      - [END.](#end)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
