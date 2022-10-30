@@ -192,6 +192,20 @@ zork:  "You see a jelly nailed to a tree, here.  Exits: East, Up, West"
 
 ```
 
+## The C++ Language is the language used in the Arduino IDE
+
+There's a 'computer language' called `C++` that is used in the
+Arduino IDE, similarly to how `C++` is used on your desktop PC.
+
+Most of what's in this document (the one you're reading right
+now) uses `code examples` written for the Arduino IDE, using
+specifics of the 'Arduino Language' as it were.
+
+You can take a look here, for some of the basics of that language:
+
+[Arduino IDE Language Reference](
+https://www.arduino.cc/reference/en/)
+
 
 ## Tools, not Rules
 
