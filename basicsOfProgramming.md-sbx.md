@@ -1091,8 +1091,7 @@ Table of Contents
 - [Basics of Programming | HOME |](#basics-of-programming--home-)
 - [What is Programming?](#what-is-programming)
       - [Scenario: potato-chip counting machine](#scenario-potato-chip-counting-machine)
-      - [When you ask for help, include the model and part number](
-        #when-you-ask-for-help-include-the-model-and-part-number)
+      - [When you ask for help, include the model and part number](#when-you-ask-for-help-include-the-model-and-part-number)
 
 - [What, then, is Programming?](#what-then-is-programming)
       - [Introduction for Beginners: What is a Computer Language?](#introduction-for-beginners-what-is-a-computer-language)
