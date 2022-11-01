@@ -113,7 +113,8 @@ were incorrect*. ;)
 
 [Table of Contents](#table-of-contents "Table Of Contents")
 
-**This is what a simple program might look like, in the** ***Arduino IDE*** **:**
+**This is what a simple program might look like, in the**
+***Arduino IDE*** **:**
 
 ```cpp
 // #include <Arduino.h> // optional
@@ -1117,12 +1118,12 @@ This program is often called the `firmware` which resides in the
 `flashROM` of the `target MCU` *(microcontroller)* once it has been
 `uploaded` to your Uno (or other board).
 
-**You must pick a board and compile just for that board** to succeed,
-here.
+**You must pick a board and compile just for that board** to
+succeed, here.
 
-Now it is true that many small programs that you'll write will compile,
-unmodified, for quite a few different Arduino boards, as well as for
-(almost) countless `third-party vendor` boards.
+Now it is true that many small programs that you'll write will
+compile, unmodified, for quite a few different Arduino boards,
+as well as for (almost) countless `third-party vendor` boards.
 
 *The above code 'worked' on **wokwi.com** for their Uno, ATMEGA 2560
 and at least one other board listed there.  Unmodified.  Most boards
@@ -1135,9 +1136,10 @@ on `D13`).*
 Some boards only have an `RGB` LED, which needs a completely different
 approach to get it to work (at all).
 
-Old school LEDs just needed power (and a series, current-limiting resistor)
-to operate, so those were great for simple testing.  The above program
-uses one of those (as the Uno has one soldered onto it, permanently).
+Old school LEDs just need power (and a series, current-limiting
+resistor) to operate, so those are great for simple testing.  The
+above program uses one of those (as the Uno has one soldered onto
+it, permanently).
 
 *If your board only has an `RGB` LED, you'll need to connect a single,
 old school LED, with a series resistor (about 1k Ohms) to one of the
@@ -1145,33 +1147,54 @@ old school LED, with a series resistor (about 1k Ohms) to one of the
 
 ### Firmware upload
 
-Use **Control + U** to `Upload` the compiled `sketch` (program) to your
-target board (Uno, or other board).
+Use **Control + U** to `Upload` the compiled `sketch` (program) to
+your target board (Uno, or other board).
 
-> *That stays the same no matter how different your board is from the more
-> usual ones - Control R and Control U work with any board supported.*
+> *That stays the same no matter how different your board is
+> from the more usual ones - `Control R` and `Control U` work
+> with any board supported.*
 
-Many boards use `avrdude` or `bossac` to upload the 'compiled' program&hellip;
-the `1's and 0's` mentioned in this document.  `avrdude` is used for the Uno
-and for most (or all) **AVR** boards.  AVR boards are `8-bit` boards, which
-(among other things) means the native storage system they use is eight
-bits wide.  Just about all 8-bit boards have a relatively small working
-memory complement (512 bytes to about 3072 bytes).  Their `mass storage`
-complement is around 4 kilobytes to about 64 kilobytes.
+Many boards use **`avrdude`** or **`bossac`** to **upload**
+the 'compiled' program&hellip; the `1's and 0's` mentioned
+in this document.
+
+**`avrdude`** is used for the Uno and for most (or all)
+**AVR** boards.
+
+*AVR boards are `8-bit` boards, which (among other things) means the
+native storage system they use is eight bits wide.  Just about all
+8-bit boards have a relatively small working memory complement (512
+bytes to about 3072 bytes).  Their `mass storage` complement is
+around 4 kilobytes to about 64 kilobytes.*
 
 `16-bit boards` are rare.
 
-`32-bit boards` (`Due`, `mkr series`, `M0 Pro` and many others) are not
-AVR boards and usually use `bossac` to do the uploading.  They have a lot
-more working memory than the AVRs and their programs can be correspondingly
-larger.
+**`32-bit boards`** (`Due`, `mkr series`, `M0 Pro` and many others)
+**are not AVR boards** and usually use **`bossac`** to do the
+**uploading**.  They have a lot more working memory than the AVRs,
+and their programs can be correspondingly larger.
 
-For example, SAMD21E18A is a low-end SAMD21 variant (G18A is standard). It
-has 256k flash (mass storage) and 32k RAM (working memory) on the chip itself.
+For example, SAMD21E18A is a low-end SAMD21 variant (G18A is standard).
+It has 256k flash (mass storage) and 32k RAM (working memory) on the
+chip itself.
 
-Many (most) 32-bit MCU boards use the `ARM Cortex` series of MCU chips.
+Many (most) 32-bit MCU boards use the **`ARM Cortex`** series of
+MCU chips.
 
-`bossac` is the usual tool, to send them their firmware (usually via USB).
+`bossac` is the usual tool, to send firmware (usually via USB) to
+most **ARM Cortex** and other 32-bit boards that have Arduino IDE
+support (sometimes called *board support packages*).
+
+### Board Support Packages
+
+Boards don't necessarily have support from the Arduino IDE, as you
+first install it.  There are several that are included; the Uno is
+the factory default.
+
+*You could buy an Uno R3, download the Arduino IDE, write a very
+simple program, compile it and upload it to the Uno, all without
+changing much of anything in the Arduino IDE's menu system.*
+
 
 <!--
 `1234567890123456789012345678901234567890123456789012345678901234567..]..345`
