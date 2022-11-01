@@ -1082,10 +1082,10 @@ its *development*.
 
 ## Arduino IDE
 
-![image](images/basicsOfProgramming/arduino_IDE-b.jpg)
-
 The **Arduino IDE** looks like this, when you are about to compile
 a program:
+
+![image](images/basicsOfProgramming/arduino_IDE-b.jpg)
 
 ```cpp
 void setup() {
