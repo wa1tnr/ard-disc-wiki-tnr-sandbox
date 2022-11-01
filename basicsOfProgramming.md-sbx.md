@@ -1084,6 +1084,23 @@ its *development*.
 
 ![image](images/basicsOfProgramming/arduino_IDE-b.jpg)
 
+```cpp
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(LED_BUILTIN, 1);
+  delay(200);
+
+  digitalWrite(LED_BUILTIN, 0);
+  delay(1000);
+}
+// END.
+```
+
 <!--
 `1234567890123456789012345678901234567890123456789012345678901234567..]..345`
 -->
