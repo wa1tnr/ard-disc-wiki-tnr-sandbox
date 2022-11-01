@@ -1113,6 +1113,17 @@ the code you have in the upper Arduino IDE window, and try to turn
 what you've written into the `1's and 0's` that the Arduino Uno (or
 other target board) can use as its 'program'.
 
+This program is often called the `firmware` which resides in the
+`flashROM` of the `target MCU` *(microcontroller)* once it has been
+`uploaded` to your Uno (or other board).
+
+**You must pick a board and compile just for that board** to succeed,
+here.
+
+Now it is true that many small programs that you'll write will compile,
+unmodified, for quite a few different Arduino boards, as well as for
+(almost) countless `third-party vendor` boards.
+
 <!--
 `1234567890123456789012345678901234567890123456789012345678901234567..]..345`
 -->
