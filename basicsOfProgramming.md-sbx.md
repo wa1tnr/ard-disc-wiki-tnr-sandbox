@@ -782,7 +782,7 @@ void loop() {
 
  * The individual numbers that make up the math had real value, to
    change timing of the LED `blink/dark` cycle.
- * Those timings were distinct and could be easiy changed when they
+ * Those timings were distinct and could be easily changed when they
    were still part of the `#define` statements; that ease of
    use/change/experimentation is no longer as evident.
 
@@ -1231,7 +1231,7 @@ Table of Contents
   - [Pseudocode](#pseudocode)
   - [Arduino IDE](#arduino-ide)
     - [Program Listing - sketch_oct31a.ino](#program-listing---sketch_oct31aino)
-    - [Firmware upload](#firware-upload)
+    - [Firmware upload](#firmware-upload)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
