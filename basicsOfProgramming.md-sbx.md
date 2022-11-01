@@ -1188,8 +1188,8 @@ support (sometimes called *board support packages*).
 ### Board Support Packages
 
 Boards don't necessarily have support from the Arduino IDE, as you
-first install it.  There are several that are included; the Uno is
-the factory default.
+first install it.  There are several boards that are included; the
+Uno is the factory default.
 
 *You could buy an Uno R3, download the Arduino IDE, write a very
 simple program, compile it and upload it to the Uno, all without
@@ -1255,6 +1255,7 @@ Table of Contents
   - [Arduino IDE](#arduino-ide)
     - [Program Listing - sketch_oct31a.ino](#program-listing---sketch_oct31aino)
     - [Firmware upload](#firmware-upload)
+    - [Board Support Packages](#board-support-packages)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
