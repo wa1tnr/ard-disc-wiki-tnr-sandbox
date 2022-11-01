@@ -1143,6 +1143,7 @@ uses one of those (as the Uno has one soldered onto it, permanently).
 old school LED, with a series resistor (about 1k Ohms) to one of the
 `port pins` of your board, to blink it.*
 
+### Firware upload
 
 <!--
 `1234567890123456789012345678901234567890123456789012345678901234567..]..345`
@@ -1201,6 +1202,8 @@ Table of Contents
   - [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
   - [Pseudocode](#pseudocode)
   - [Arduino IDE](#arduino-ide)
+    - [Program Listing - sketch_oct31a.ino](#program-listing---sketch_oct31aino)
+    - [Firware upload](#firware-upload)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
