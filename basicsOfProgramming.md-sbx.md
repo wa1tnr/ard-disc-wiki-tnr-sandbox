@@ -1124,6 +1124,24 @@ Now it is true that many small programs that you'll write will compile,
 unmodified, for quite a few different Arduino boards, as well as for
 (almost) countless `third-party vendor` boards.
 
+*The above code 'worked' on **wokwi.com** for their Uno, ATMEGA 2560
+and at least one other board listed there.  Unmodified.  Most boards
+that have an LED on the board itself, for a **blinkenlight** will have
+a definition for LED_BUILTIN that will operate that LED without knowing
+its 'proper' port number (it's usually on `D13`).*
+
+Some boards only have an `RGB` LED, which needs a completely different
+approach to get it to work (at all).
+
+Old school LEDs just needed power (and a series, current-limiting resistor)
+to operate, so those were great for simple testing.  The above program
+uses one of those (as the Uno has one soldered onto it, permanently).
+
+*If your board only has an `RGB` LED, you'll need to connect a single,
+old school LED, with a series resistor (about 1k Ohms) to one of the
+`port pins` of your board, to blink it.*
+
+
 <!--
 `1234567890123456789012345678901234567890123456789012345678901234567..]..345`
 -->
