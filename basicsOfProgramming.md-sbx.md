@@ -141,7 +141,7 @@ void loop() {
 
 #### Quick wokwi demo
 
-[Table of Contents](#table-of-contents "Table Of Contents" "Table Of Contents")
+[Table of Contents](#table-of-contents "Table Of Contents")
 
 [*Now Playing*](https://wokwi.com/projects/346503862192964178 "Now Playing")
 &nbsp;&nbsp;*on*&nbsp;&nbsp;
@@ -1080,10 +1080,17 @@ think should be *going on* in your *program* when it's either
 *finished* or at least *completed, up to a certain point* in
 its *development*.
 
+## Arduino IDE
 
-# DRAFT ONLY - INCOMPLETE
+![image](images/basicsOfProgramming/arduino_IDE-b.jpg)
+
+<!--
 `1234567890123456789012345678901234567890123456789012345678901234567..]..345`
-#### Sun 30 Oct 19:17:02 UTC 2022 - timestamp only occasionally maintained ;)
+-->
+
+**DRAFT ONLY - INCOMPLETE**
+
+**Tue  1 Nov 14:05:00 UTC 2022** - *timestamp only occasionally maintained ;)*
 
 Table of Contents
 =================
@@ -1133,6 +1140,7 @@ Table of Contents
     - [Okay that was a bit too stingy, what about making it look nice, again?](#okay-that-was-a-bit-too-stingy-what-about-making-it-look-nice-again)
   - [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
   - [Pseudocode](#pseudocode)
+  - [Arduino IDE](#arduino-ide)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
