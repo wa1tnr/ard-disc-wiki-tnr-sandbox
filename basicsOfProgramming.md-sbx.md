@@ -1143,7 +1143,29 @@ uses one of those (as the Uno has one soldered onto it, permanently).
 old school LED, with a series resistor (about 1k Ohms) to one of the
 `port pins` of your board, to blink it.*
 
-### Firware upload
+### Firmware upload
+
+Many boards use `avrdude` or `bossac` to upload the 'compiled' program&hellip;
+the `1's and 0's` mentioned in this document.  `avrdude` is used for the Uno
+and for most (or all) **AVR** boards.  AVR boards are `8-bit` boards, which
+(among other things) means the native storage system they use is eight
+bits wide.  Just about all 8-bit boards have a relatively small working
+memory complement (512 bytes to about 3072 bytes).  Their `mass storage`
+complement is around 4 kilobytes to about 64 kilobytes.
+
+`16-bit boards` are rare.
+
+`32-bit boards` (`Due`, `mkr series`, `M0 Pro` and many others) are not
+AVR boards and usually use `bossac` to do the uploading.  They have a lot
+more working memory than the AVRs and their programs can be correspondingly
+larger.
+
+For example, SAMD21E18A is a low-end SAMD21 variant (G18A is standard). It
+has 256k flash (mass storage) and 32k RAM (working memory) on the chip itself.
+
+Many (most) 32-bit MCU boards use the `ARM Cortex` series of MCU chips.
+
+`bossac` is the usual tool, to send them their firmware (usually via USB).
 
 <!--
 `1234567890123456789012345678901234567890123456789012345678901234567..]..345`
@@ -1203,7 +1225,7 @@ Table of Contents
   - [Pseudocode](#pseudocode)
   - [Arduino IDE](#arduino-ide)
     - [Program Listing - sketch_oct31a.ino](#program-listing---sketch_oct31aino)
-    - [Firware upload](#firware-upload)
+    - [Firmware upload](#firware-upload)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 
