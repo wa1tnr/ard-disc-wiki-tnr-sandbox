@@ -1126,9 +1126,11 @@ unmodified, for quite a few different Arduino boards, as well as for
 
 *The above code 'worked' on **wokwi.com** for their Uno, ATMEGA 2560
 and at least one other board listed there.  Unmodified.  Most boards
-that have an LED on the board itself, for a **blinkenlight** will have
-a definition for LED_BUILTIN that will operate that LED without knowing
-its 'proper' port number (it's usually on `D13`).*
+that have an LED on the board itself, for a 
+[**blinkenlight**](https://en.wikipedia.org/wiki/Blinkenlights)
+will have a definition for LED_BUILTIN that will operate that LED
+without knowing its 'proper' port pin number (it's usually
+on `D13`).*
 
 Some boards only have an `RGB` LED, which needs a completely different
 approach to get it to work (at all).
