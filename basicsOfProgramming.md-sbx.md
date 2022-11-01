@@ -1084,6 +1084,9 @@ its *development*.
 
 ![image](images/basicsOfProgramming/arduino_IDE-b.jpg)
 
+The **Arduino IDE** looks like this, when you are about to compile
+a program:
+
 ```cpp
 void setup() {
   // put your setup code here, to run once:
@@ -1100,6 +1103,13 @@ void loop() {
 }
 // END.
 ```
+
+You can use **Control + R** to `Verify/Compile` your program.
+
+This simply means you'll be invoking the `compiler`, which will take
+the code you have in the upper Arduino IDE window, and try to turn
+what you've written into the `1's and 0's` that the Arduino Uno (or
+other target board) can use as its 'program'.
 
 <!--
 `1234567890123456789012345678901234567890123456789012345678901234567..]..345`
