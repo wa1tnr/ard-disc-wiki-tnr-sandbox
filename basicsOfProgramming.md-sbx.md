@@ -1145,6 +1145,12 @@ old school LED, with a series resistor (about 1k Ohms) to one of the
 
 ### Firmware upload
 
+Use **Control + U** to `Upload` the compiled `sketch` (program) to your
+target board (Uno, or other board).
+
+> *That stays the same no matter how different your board is from the more
+> usual ones - Control R and Control U work with any board supported.*
+
 Many boards use `avrdude` or `bossac` to upload the 'compiled' program&hellip;
 the `1's and 0's` mentioned in this document.  `avrdude` is used for the Uno
 and for most (or all) **AVR** boards.  AVR boards are `8-bit` boards, which
