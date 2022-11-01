@@ -1083,12 +1083,16 @@ its *development*.
 
 ## Arduino IDE
 
+[Table of Contents](#toc-adruids-man "Table Of Contents")
+
 The **Arduino IDE** looks like this, when you are about to compile
 a program:
 
 ![image](images/basicsOfProgramming/arduino_IDE-b.jpg)
 
 ### Program Listing - sketch_oct31a.ino
+
+[Table of Contents](#toc-adruids-man "Table Of Contents")
 
 ```cpp
 void setup() {
@@ -1147,6 +1151,8 @@ old school LED, with a series resistor (about 1k Ohms) to one of the
 
 ### Firmware upload
 
+[Table of Contents](#toc-adruids-man "Table Of Contents")
+
 Use **Control + U** to `Upload` the compiled `sketch` (program) to
 your target board (Uno, or other board).
 
@@ -1187,6 +1193,8 @@ support (sometimes called *board support packages*).
 
 ### Board Support Packages
 
+[Table of Contents](#toc-adruids-man "Table Of Contents")
+
 Boards don't necessarily have support from the Arduino IDE, as you
 first install it.  There are several boards that are included; the
 Uno is the factory default.
@@ -1195,14 +1203,6 @@ Uno is the factory default.
 simple program, compile it and upload it to the Uno, all without
 changing much of anything in the Arduino IDE's menu system.*
 
-
-<!--
-`1234567890123456789012345678901234567890123456789012345678901234567..]..345`
--->
-
-**DRAFT ONLY - INCOMPLETE**
-
-**Tue  1 Nov 15:41:41 UTC 2022** - *timestamp only occasionally maintained ;)*
 
 Table of Contents
 =================
@@ -1258,5 +1258,13 @@ Table of Contents
     - [Board Support Packages](#board-support-packages)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+
+<!--
+`1234567890123456789012345678901234567890123456789012345678901234567..]..345`
+-->
+
+**DRAFT ONLY - INCOMPLETE**
+
+**Tue  1 Nov 15:50:07 UTC 2022** - *timestamp only occasionally maintained ;)*
 
 #### END.
