@@ -1083,12 +1083,16 @@ its *development*.
 
 ## Arduino IDE
 
+[Table of Contents](#toc-adruids-man "Table Of Contents")
+
 The **Arduino IDE** looks like this, when you are about to compile
 a program:
 
 ![image](images/basicsOfProgramming/arduino_IDE-b.jpg)
 
 ### Program Listing - sketch_oct31a.ino
+
+[Table of Contents](#toc-adruids-man "Table Of Contents")
 
 ```cpp
 void setup() {
@@ -1147,6 +1151,8 @@ old school LED, with a series resistor (about 1k Ohms) to one of the
 
 ### Firmware upload
 
+[Table of Contents](#toc-adruids-man "Table Of Contents")
+
 Use **Control + U** to `Upload` the compiled `sketch` (program) to
 your target board (Uno, or other board).
 
@@ -1187,6 +1193,8 @@ support (sometimes called *board support packages*).
 
 ### Board Support Packages
 
+[Table of Contents](#toc-adruids-man "Table Of Contents")
+
 Boards don't necessarily have support from the Arduino IDE, as you
 first install it.  There are several boards that are included; the
 Uno is the factory default.
@@ -1195,14 +1203,29 @@ Uno is the factory default.
 simple program, compile it and upload it to the Uno, all without
 changing much of anything in the Arduino IDE's menu system.*
 
+### Themes
 
-<!--
-`1234567890123456789012345678901234567890123456789012345678901234567..]..345`
--->
+You can have a single theme for the Arduino IDE in a directory
+named 'theme' in your 'sketchbook'.
 
-**DRAFT ONLY - INCOMPLETE**
+> OS-dependent: The sketchbook is usually/always named
+> `'~/Arduino'` in Linux; the theme directory for Linux is named
+> `'~/Arduino/theme'` and does not exist after installation of
+> the Arduino IDE, as it is optional.
 
-**Tue  1 Nov 15:41:41 UTC 2022** - *timestamp only occasionally maintained ;)*
+If you have multiple themes, zip each one up without including
+a directory creation (when it is unzipped it will not create
+a new directory to hold the newly-unzipped .ZIP archive; instead,
+it unzips in whatever is the current directory - at least, under
+Linux, that's true).
+
+Then drop all the .ZIP files into the
+`'~/Arduino/theme'` directory.  From there, `File > Preferences`
+will offer a means to choose one of them over the others.
+
+**As is usual** for the Arduino IDE, always restart it (exit it
+entirely, then start it afresh) after changing a Preference.
+
 
 Table of Contents
 =================
@@ -1256,7 +1279,16 @@ Table of Contents
     - [Program Listing - sketch_oct31a.ino](#program-listing---sketch_oct31aino)
     - [Firmware upload](#firmware-upload)
     - [Board Support Packages](#board-support-packages)
+    - [Themes](#themes)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+
+<!--
+`1234567890123456789012345678901234567890123456789012345678901234567..]..345`
+-->
+
+**DRAFT ONLY - INCOMPLETE**
+
+**Wed  2 Nov 11:45:09 UTC 2022** - *timestamp only occasionally maintained ;)*
 
 #### END.
