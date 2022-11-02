@@ -1293,6 +1293,7 @@ Table of Contents
     - [Program Listing - sketch_oct31a.ino](#program-listing---sketch_oct31aino)
     - [Firmware upload](#firmware-upload)
     - [Board Support Packages](#board-support-packages)
+    - [Sketchbook](#sketchbook)
     - [Themes](#themes)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
@@ -1303,6 +1304,6 @@ Table of Contents
 
 **DRAFT ONLY - INCOMPLETE**
 
-**Wed  2 Nov 14:09:24 UTC 2022** - *timestamp only occasionally maintained ;)*
+**Wed  2 Nov 14:12:21 UTC 2022** - *timestamp only occasionally maintained ;)*
 
 #### END.
