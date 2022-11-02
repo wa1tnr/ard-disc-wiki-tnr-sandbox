@@ -1207,7 +1207,7 @@ changing much of anything in the Arduino IDE's menu system.*
 
 The Arduino IDE calls the directory where your programs are
 stored the `Sketchbook`.  It is found in the menu system,
-following a `File &gt; Sketchbook` menu sequence.
+following a `File > Sketchbook` menu sequence.
 
 ### Themes
 
@@ -1230,7 +1230,7 @@ it unzips in whatever is the current directory - at least, under
 Linux, that's true).
 
 Then drop all the .ZIP files into the
-`'~/Arduino/theme'` directory.  From there, `File &gt; Preferences`
+`'~/Arduino/theme'` directory.  From there, `File > Preferences`
 will offer a means to choose one of them over the others.
 
 **As is usual** for the Arduino IDE, always restart it (exit it
