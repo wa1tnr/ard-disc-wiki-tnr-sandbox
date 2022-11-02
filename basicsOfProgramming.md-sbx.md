@@ -1203,6 +1203,12 @@ Uno is the factory default.
 simple program, compile it and upload it to the Uno, all without
 changing much of anything in the Arduino IDE's menu system.*
 
+### Sketchbook
+
+The Arduino IDE calls the directory where your programs are
+stored the `Sketchbook`.  It is found in the menu system,
+following a `File &gt; Sketchbook` menu sequence.
+
 ### Themes
 
 *Sample theme: sequoia color scheme*
@@ -1224,12 +1230,16 @@ it unzips in whatever is the current directory - at least, under
 Linux, that's true).
 
 Then drop all the .ZIP files into the
-`'~/Arduino/theme'` directory.  From there, `File > Preferences`
+`'~/Arduino/theme'` directory.  From there, `File &gt; Preferences`
 will offer a means to choose one of them over the others.
 
 **As is usual** for the Arduino IDE, always restart it (exit it
 entirely, then start it afresh) after changing a Preference.
 
+***For a single theme:***  Just unzip it in your theme directory
+in the sketchbook.  The .ZIP creates one directory (`'syntax/'`),
+but most of the theme's files are in the base ('theme') directory,
+for a single theme installation.
 
 Table of Contents
 =================
