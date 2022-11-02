@@ -1205,9 +1205,9 @@ changing much of anything in the Arduino IDE's menu system.*
 
 ### Sketchbook
 
-The Arduino IDE calls the directory where your programs are
-stored the `Sketchbook`.  It is found in the menu system,
-following a **File > Sketchbook** menu sequence.
+The Arduino IDE calls the directory where your programs are stored
+the `Sketchbook`.  It is found in the menu system, following a
+**File > Sketchbook** menu sequence.
 
 ### Themes
 
@@ -1224,14 +1224,14 @@ named 'theme' in your 'sketchbook'.
 > the Arduino IDE, as it is optional.
 
 If you have multiple themes, zip each one up without including
-creation of a directory (when it is unzipped it will not create
-a new directory to hold the newly-unzipped .ZIP archive; instead,
+creation of a directory (when it is unzipped, it will not create a
+new directory to hold the newly-unzipped .ZIP archive; instead,
 it unzips in whatever is the current directory - at least, under
 Linux, that's true).
 
-Then drop all the .ZIP files into the
-`'~/Arduino/theme'` directory.  From there, `File > Preferences`
-will offer a means to choose one of them over the others.
+Then drop all the .ZIP files into the `'~/Arduino/theme'` directory.
+From there, **File > Preferences** will offer a means to choose one
+of them over the others.
 
 **As is usual** for the Arduino IDE, always restart it (exit it
 entirely, then start it afresh) after changing a Preference.
@@ -1303,6 +1303,6 @@ Table of Contents
 
 **DRAFT ONLY - INCOMPLETE**
 
-**Wed  2 Nov 11:45:09 UTC 2022** - *timestamp only occasionally maintained ;)*
+**Wed  2 Nov 14:09:24 UTC 2022** - *timestamp only occasionally maintained ;)*
 
 #### END.
