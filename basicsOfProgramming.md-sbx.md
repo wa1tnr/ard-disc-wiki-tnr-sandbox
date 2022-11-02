@@ -170,7 +170,7 @@ programmers often resort to the C Preprocessor to coerce C++ program
 syntax&hellip; really, quite a bit. ;)*
 
 > *You're not 'supposed to' do this&mdash;there's a strong feeling
-about this, about.  Just be aware of it; it's a large detour from
+about this.  Just be aware of it; it's a large detour from
 C++ itself, which is the 'Language of Arduino' so to speak.*
 
 ### Hide those details in a library
