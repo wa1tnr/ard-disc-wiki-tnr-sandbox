@@ -1207,11 +1207,7 @@ changing much of anything in the Arduino IDE's menu system.*
 
 The Arduino IDE calls the directory where your programs are
 stored the `Sketchbook`.  It is found in the menu system,
-following a
-```
-File > Sketchbook
-```
-menu sequence.
+following a **File > Sketchbook** menu sequence.
 
 ### Themes
 
