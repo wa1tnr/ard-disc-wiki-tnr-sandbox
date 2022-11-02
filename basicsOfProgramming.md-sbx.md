@@ -1214,7 +1214,7 @@ named 'theme' in your 'sketchbook'.
 > the Arduino IDE, as it is optional.
 
 If you have multiple themes, zip each one up without including
-a directory creation (when it is unzipped it will not create
+creation of a directory (when it is unzipped it will not create
 a new directory to hold the newly-unzipped .ZIP archive; instead,
 it unzips in whatever is the current directory - at least, under
 Linux, that's true).
