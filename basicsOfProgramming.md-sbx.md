@@ -1205,6 +1205,10 @@ changing much of anything in the Arduino IDE's menu system.*
 
 ### Themes
 
+*Sample theme: sequoia color scheme*
+
+[sequoia.zip](images/basicsOfProgramming/sequoia.zip)
+
 You can have a single theme for the Arduino IDE in a directory
 named 'theme' in your 'sketchbook'.
 
