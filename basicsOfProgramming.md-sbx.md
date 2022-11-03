@@ -170,7 +170,7 @@ programmers often resort to the C Preprocessor to coerce C++ program
 syntax&hellip; really, quite a bit. ;)*
 
 > *You're not 'supposed to' do this&mdash;there's a strong feeling
-about this.  Just be aware of it; it's a large detour from
+about this, about.  Just be aware of it; it's a large detour from
 C++ itself, which is the 'Language of Arduino' so to speak.*
 
 ### Hide those details in a library
@@ -1211,10 +1211,6 @@ the `Sketchbook`.  It is found in the menu system, following a
 
 ### Themes
 
-*Sample theme: sequoia color scheme*
-
-[sequoia.zip](images/basicsOfProgramming/sequoia.zip)
-
 You can have a single theme for the Arduino IDE in a directory
 named 'theme' in your 'sketchbook'.
 
@@ -1222,6 +1218,12 @@ named 'theme' in your 'sketchbook'.
 > `'~/Arduino'` in Linux; the theme directory for Linux is named
 > `'~/Arduino/theme'` and does not exist after installation of
 > the Arduino IDE, as it is optional.
+
+Copy all the files from:
+
+[theme](https://github.com/arduino/Arduino/tree/master/build/shared/lib/theme)
+
+to your Sketchbook folder, and modify to suit.
 
 If you have multiple themes, zip each one up without including
 creation of a directory (when it is unzipped, it will not create a
@@ -1236,7 +1238,7 @@ of them over the others.
 **As is usual** for the Arduino IDE, always restart it (exit it
 entirely, then start it afresh) after changing a Preference.
 
-***For a single theme:***  Just unzip it in your theme directory
+***For a single .ZIP theme:***  Just unzip it in your theme directory
 in the sketchbook.  The .ZIP creates one directory (`'syntax/'`),
 but most of the theme's files are in the base ('theme') directory,
 for a single theme installation.
