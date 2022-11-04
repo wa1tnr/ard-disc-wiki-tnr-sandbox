@@ -1182,7 +1182,7 @@ gets called automatically, to start the program.
 You do not usually call `main()` in your code; it's specified
 (already) in a file named `main.cpp` in the Arduino IDE.
 
-(See arduino-1.8.19/hardware/arduino/avr/cores/arduino/Arduino.h)
+See [main.cpp](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/main.cpp) *(also shown below)*.
 
 Traditional programs use `main()` to start things; the Arduino
 IDE also (optionally) allows you to do so, but encourages you
@@ -1191,7 +1191,7 @@ IDE also (optionally) allows you to do so, but encourages you
 *If you don't already know `C/C++` and are learning on the Arduino
 IDE, this brief introduction to `main()` isn't likely to be
 important to you&mdash; it's here mostly to help `C/C++` programmers
-new to the Arduino IDE understand what's happening with the
+new to the Arduino IDE to understand what's happening with the
 requirements of `setup()` and `loop()`.*
 
 Here it is:
