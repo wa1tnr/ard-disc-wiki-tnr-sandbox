@@ -1184,15 +1184,15 @@ You do not usually call `main()` in your code; it's specified
 
 See [main.cpp](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/main.cpp) *(also shown below)*.
 
-Traditional programs use `main()` to start things; the Arduino
-IDE also (optionally) allows you to do so, but encourages you
-(instead) to use `setup()` and `loop()`.
+Traditional programs use `main()` to start things; the Arduino IDE
+also (optionally) allows you to do so, but encourages you (instead)
+to use `setup()` and `loop()`.
 
 *If you don't already know `C/C++` and are learning on the Arduino
-IDE, this brief introduction to `main()` isn't likely to be
-important to you&mdash; it's here mostly to help `C/C++` programmers
-new to the Arduino IDE to understand what's happening with the
-requirements of `setup()` and `loop()`.*
+IDE, this brief introduction to `main()` isn't likely to be important
+to you&mdash; it's here mostly to help `C/C++` programmers new to the
+Arduino IDE to understand what's happening with the requirements of
+`setup()` and `loop()`.*
 
 Here it is:
 
@@ -1221,14 +1221,11 @@ int main(void)
 ***This is where `setup()` and `loop()` and their mandatory natures
 are apparent.***
 
-The `for (;;)` construct is a simple counted loop mechanism,
-with no counting.  The syntax used specifies *yes, loop in
-a counting way, but do not count&mdash;treat as if the count
-were somehow 'infinite' and behave similarly to a proper,
-counted loop.*
+The `for (;;)` construct is a simple counted loop mechanism, with no
+counting.  The syntax used specifies *yes, loop in a counting way,
+but do not count&mdash;treat as if the count were somehow 'infinite'
+and behave similarly to a proper, counted loop.*
 
-
-1234567890123456789012345678901234567890123456789012345678901234567..]..345`
 
 ### Firmware upload
 
@@ -1304,7 +1301,8 @@ Copy all the files from:
 
 [theme](https://github.com/arduino/Arduino/tree/master/build/shared/lib/theme)
 
-to a directory named `theme` in your `Sketchbook` folder, and modify to suit.
+to a directory named `theme` in your `Sketchbook` folder, and
+modify to suit.
 
 [theme.txt](images/basicsOfProgramming/sequoia/theme.txt)
 has been modified to show possible changes, as a quick example.
@@ -1393,6 +1391,6 @@ Table of Contents
 
 **DRAFT ONLY - INCOMPLETE**
 
-**Fri  4 Nov 11:36:14 UTC 2022** - *timestamp only occasionally maintained ;)*
+**Fri  4 Nov 11:48:35 UTC 2022** - *timestamp only occasionally maintained ;)*
 
 #### END.
