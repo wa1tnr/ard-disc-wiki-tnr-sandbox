@@ -1083,7 +1083,7 @@ its *development*.
 
 ## Arduino IDE
 
-[Table of Contents](#toc-adruids-man "Table Of Contents")
+[Table of Contents](#toc-arduino-ide "Table Of Contents")
 
 The **Arduino IDE** looks like this, when you are about to compile
 a program:
@@ -1092,7 +1092,7 @@ a program:
 
 ### Program Listing - sketch_oct31a.ino
 
-[Table of Contents](#toc-adruids-man "Table Of Contents")
+[Table of Contents](#toc-arduino-ide "Table Of Contents")
 
 ```cpp
 void setup() {
@@ -1151,6 +1151,8 @@ old school LED, with a series resistor (about 1k Ohms) to one of the
 
 #### void setup()
 
+[Table of Contents](#toc-arduino-ide "Table Of Contents")
+
 This declares there's a `function` named `setup()` to be `compiled`
 into the program.
 
@@ -1161,6 +1163,8 @@ nothing, but simply `execute` (or 'run') if `called` (almost
 always, from inside another `function`).
 
 #### void loop()
+
+[Table of Contents](#toc-arduino-ide "Table Of Contents")
 
 Same idea as `void setup()`&hellip; only this time, the function
 automatically repeats ('forever') when called.
@@ -1175,6 +1179,8 @@ explicit 'looping' code structure.
 
 
 #### int main(void)
+
+[Table of Contents](#toc-arduino-ide "Table Of Contents")
 
 In the Arduino IDE, a specially-named function, `int main(void)`
 gets called automatically, to start the program.
@@ -1229,7 +1235,7 @@ and behave similarly to a proper, counted loop.*
 
 ### Firmware upload
 
-[Table of Contents](#toc-adruids-man "Table Of Contents")
+[Table of Contents](#toc-arduino-ide "Table Of Contents")
 
 Use **Control + U** to `Upload` the compiled `sketch` (program) to
 your target board (Uno, or other board).
@@ -1271,7 +1277,7 @@ support (sometimes called *board support packages*).
 
 ### Board Support Packages
 
-[Table of Contents](#toc-adruids-man "Table Of Contents")
+[Table of Contents](#toc-arduino-ide "Table Of Contents")
 
 Boards don't necessarily have support from the Arduino IDE, as you
 first install it.  There are several boards that are included; the
@@ -1283,11 +1289,15 @@ changing much of anything in the Arduino IDE's menu system.*
 
 ### Sketchbook
 
+[Table of Contents](#toc-arduino-ide "Table Of Contents")
+
 The Arduino IDE calls the directory where your programs are stored
 the `Sketchbook`.  It is found in the menu system, following a
 **File > Sketchbook** menu sequence.
 
 ### Themes
+
+[Table of Contents](#toc-arduino-ide "Table Of Contents")
 
 You can have a single theme for the Arduino IDE in a directory
 named 'theme' in your `Sketchbook`.
@@ -1373,6 +1383,7 @@ Table of Contents
     - [Okay that was a bit too stingy, what about making it look nice, again?](#okay-that-was-a-bit-too-stingy-what-about-making-it-look-nice-again)
   - [Discussion - Blink with Weight - LED blinker program](#discussion---blink-with-weight---led-blinker-program)
   - [Pseudocode](#pseudocode)
+    <a name="toc-arduino-ide"></a>
   - [Arduino IDE](#arduino-ide)
     - [Program Listing - sketch_oct31a.ino](#program-listing---sketch_oct31aino)
     - [void setup()](#void-setup)
@@ -1391,6 +1402,6 @@ Table of Contents
 
 **DRAFT ONLY - INCOMPLETE**
 
-**Fri  4 Nov 11:48:35 UTC 2022** - *timestamp only occasionally maintained ;)*
+**Fri  4 Nov 11:53:39 UTC 2022** - *timestamp only occasionally maintained ;)*
 
 #### END.
