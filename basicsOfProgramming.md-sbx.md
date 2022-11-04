@@ -1228,9 +1228,9 @@ int main(void)
 are apparent.***
 
 The `for (;;)` construct is a simple counted loop mechanism, with no
-counting.  The syntax used specifies *yes, loop in a counting way,
+counting.  The syntax used specifies *'Yes, loop in a counting way,
 but do not count&mdash;treat as if the count were somehow 'infinite'
-and behave similarly to a proper, counted loop.*
+and behave similarly to a proper, counted loop.'*
 
 
 ### Firmware upload
