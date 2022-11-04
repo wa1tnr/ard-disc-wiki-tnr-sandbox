@@ -1162,6 +1162,16 @@ Other functions may also be declared `void`&mdash;they return
 nothing, but simply `execute` (or 'run') if `called` (almost
 always, from inside another `function`).
 
+*`setup()` does just what it sounds like&mdash;it sets up your
+program's starting conditions.
+
+Pragmatically, `setup()` executes only once during the entire
+time your program is running&mdash;pretty much 'just after'
+power was applied to your board.
+
+*See the discussion on `main()` for a bit more context.*
+
+
 #### void loop()
 
 [Table of Contents](#toc-arduino-ide "Table Of Contents")
