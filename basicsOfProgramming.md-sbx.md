@@ -1169,7 +1169,7 @@ Pragmatically, `setup()` executes only once during the entire
 time your program is running&mdash;pretty much 'just after'
 power was applied to your board.
 
-*See the discussion on `main()` for a bit more context.*
+*See the discussion on `int main(void)` for a bit more context.*
 
 
 #### void loop()
