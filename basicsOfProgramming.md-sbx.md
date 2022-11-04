@@ -1163,7 +1163,7 @@ nothing, but simply `execute` (or 'run') if `called` (almost
 always, from inside another `function`).
 
 *`setup()` does just what it sounds like&mdash;it sets up your
-program's starting conditions.
+program's starting conditions.*
 
 Pragmatically, `setup()` executes only once during the entire
 time your program is running&mdash;pretty much 'just after'
